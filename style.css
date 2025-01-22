@@ -13,13 +13,14 @@ body {
 	min-height: 100vh;
 }
 
-
 /* Navigation Bar */
 .nav-container {
-	position: fixed;
+	position: fixed; /* Changed from relative to fixed */
 	top: 20px;
-	left: 25rem;
-	right: 25rem;
+	left: 50%;
+	transform: translateX(-50%); /* Centers the nav */
+	width: 80%; /* Controls the width of the nav */
+	max-width: 1200px; /* Prevents nav from getting too wide */
 	padding: 1rem 3rem;
 	background: rgba(0, 0, 0, 0.2);
 	backdrop-filter: blur(10px);
@@ -27,7 +28,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	z-index: 1000;
-	border-radius: 50px 50px;
+	border-radius: 50px;
 }
 
 .logo {
@@ -54,6 +55,7 @@ body {
 	letter-spacing: 1px;
 	position: relative;
 	padding-bottom: 5px;
+	font-weight: 500;
 }
 
 .nav-links a::after {
@@ -69,21 +71,6 @@ body {
 
 .nav-links a:hover::after {
 	width: 100%;
-}
-
-.get-in-touch {
-	background: #ffffff;
-	color: #000000;
-	text-decoration: none;
-	padding: 1rem 2rem;
-	border-radius: 100px;
-	font-weight: 500;
-	transition: all 0.3s ease;
-}
-
-.get-in-touch:hover {
-	background: rgba(255, 255, 255, 0.9);
-	transform: translateY(-2px);
 }
 
 .works-link {
@@ -145,22 +132,10 @@ body {
 	}
 }
 
-/* Gradient Overlay */
-.gradient-overlay {
-	position: relative;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: radial-gradient(circle at top left, rgba(254, 84, 66, 0.2), rgba(0, 0, 0, 0.8));
-	pointer-events: none;
-	z-index: -1;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
 	.nav-container {
-		padding: 1.5rem;
+		padding: 3.5rem;
 	}
 
 	.nav-links {
@@ -169,5 +144,47 @@ body {
 
 	.hero h1 {
 		font-size: 3rem;
+	}
+}
+
+.get-in-touch {
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-radius: 100px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.get-in-touch:hover {
+	background: rgba(255, 255, 255, 0.9);
+	transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+	.nav-container {
+		width: 90%;
+		padding: 1rem 2rem;
+	}
+
+	.nav-links {
+		gap: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-container {
+		width: 95%;
+		padding: 1rem;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.get-in-touch {
+		padding: 0.8rem 1.5rem;
 	}
 }
