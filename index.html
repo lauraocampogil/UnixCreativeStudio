@@ -9,8 +9,6 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="gradient-overlay"></div>
-
 		<nav class="nav-container">
 			<div class="logo">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -36,14 +34,5 @@
 				<p>Transformamos tu visión en experiencias digitales únicas y memorables</p>
 			</div>
 		</section>
-
-		<script>
-			// Parallax effect for gradient
-			document.addEventListener("mousemove", (e) => {
-				const moveX = (e.clientX * 0.05) / 8;
-				const moveY = (e.clientY * 0.05) / 8;
-				document.querySelector(".gradient-overlay").style.transform = `translate(${moveX}px, ${moveY}px)`;
-			});
-		</script>
 	</body>
 </html>
