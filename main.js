@@ -1,11 +1,7 @@
-const buttons = document.querySelectorAll("button");
+const faqs = document.querySelectorAll(".faq");
 
-buttons.forEach((button) => {
-	button.addEventListener("click", () => {
-		const faq = button.nextElementSibling;
-		const icon = button.children[1];
-
-		faq.classList.toggle("show");
-		icon.classList.toggle("rotate");
+faqs.forEach((faq) => {
+	faq.addEventListener("click", () => {
+		faq.classList.toggle("active");
 	});
 });

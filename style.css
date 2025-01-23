@@ -668,14 +668,70 @@ body {
 	background: rgba(255, 255, 255, 0.2);
 }
 
-.faq > p {
+.faq-container > p {
 	text-align: center;
 	color: rgba(255, 255, 255, 0.7);
 	margin-bottom: 10px;
 }
 
-.faq > h2 {
+.faq-container > h2 {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 60px;
+}
+.faqs {
+	min-height: 100vh;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.faq {
+	max-width: 700px;
+	margin-top: 2rem;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid #ffffff;
+	cursor: pointer;
+}
+.question {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.question h3 {
+	font-size: 1.6rem;
+}
+.answer {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.7s ease;
+}
+.answer p {
+	padding-top: 1rem;
+	line-height: 1.6;
+	font-size: 1.2rem;
+}
+.faq.active .answer {
+	max-height: 300px;
+	animation: fade 0.5s ease-in-out;
+}
+
+.faq.active svg {
+	transform: rotate(180deg);
+}
+svg {
+	transition: transform 0.5s ease-in;
+	margin-left: 10px;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
