@@ -427,6 +427,20 @@ body {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
 	}
+	.service-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service-small-container {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.service-seo,
+	.service-googlemaps {
+		width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -509,4 +523,159 @@ body {
 	color: rgba(255, 255, 255, 0.7);
 	line-height: 1.6;
 	font-size: 16px;
+}
+.services {
+	padding: 80px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.services > p {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 10px;
+}
+
+.services > h2 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+
+.service-content {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.service-project {
+	flex: 0 0 400px;
+	background: rgba(20, 20, 20, 0.9);
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	padding: 32px;
+	height: 600px;
+}
+
+.service-small-container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.service-seo,
+.service-googlemaps {
+	flex: 0 0 288px;
+	background: rgba(20, 20, 20, 0.9);
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	padding: 32px;
+	height: 250px;
+}
+
+.available-spot {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 20px;
+}
+
+.spot-indicator {
+	width: 8px;
+	height: 8px;
+	background: #22c55e;
+	border-radius: 50%;
+}
+
+.service-project h2 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.service-project p {
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 20px;
+}
+.service-price-small {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+
+.service-price {
+	font-size: 48px;
+	font-weight: 700;
+	margin: 24px 0;
+}
+
+.service-benefits-small {
+	list-style: none;
+}
+.service-benefits {
+	list-style: none;
+	margin: 24px 0;
+}
+.service-benefits-small li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+.service-benefits-small li::before {
+	content: "✓";
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.service-benefits li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+.service-benefits li::before {
+	content: "✓";
+	color: rgba(255, 255, 255, 0.6);
+}
+.service-seo p {
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 5px;
+}
+.service-googlemaps p {
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 5px;
+}
+
+.btn-service {
+	width: 100%;
+	padding: 16px;
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 20px;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.btn-service:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.faq > p {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 10px;
+}
+
+.faq > h2 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 60px;
 }
