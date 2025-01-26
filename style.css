@@ -410,6 +410,7 @@ section {
 	font-weight: 500;
 	margin-bottom: 4px;
 	color: white;
+	text-align: left;
 }
 
 .process-step p {
