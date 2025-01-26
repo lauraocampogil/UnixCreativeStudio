@@ -923,6 +923,7 @@ svg {
 }
 .footer-container {
 	background: linear-gradient(225deg, #fe5442 0%, #000000 100%);
+	margin-top: 4rem;
 }
 .footer-container h2 {
 	text-align: center;
