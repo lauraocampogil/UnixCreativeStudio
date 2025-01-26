@@ -37,20 +37,20 @@
 			<h1>Estamos aquí para apoyarte</h1>
 			<p>La atención al cliente es nuestra máxima prioridad. Estamos aquí para responder a todas tus preguntas.</p>
 
-			<form class="contact-form">
+			<form class="contact-form" action="https://formspree.io/f/mnnjjzdy" method="POST">
 				<div class="form-row">
 					<div class="form-group">
 						<label>Nombre</label>
-						<input type="text" placeholder="Introduce tu nombre" />
+						<input type="text" name="nombre" placeholder="Introduce tu nombre" required />
 					</div>
 					<div class="form-group">
 						<label>Email</label>
-						<input type="email" placeholder="Ingresa tu correo electrónico" />
+						<input type="email" name="email" placeholder="Ingresa tu correo electronico" required />
 					</div>
 				</div>
 				<div class="form-group">
 					<label>Mensaje</label>
-					<textarea placeholder="Introduce tu mensaje"></textarea>
+					<textarea name="mensaje" placeholder="Introduce tu mensaje" required></textarea>
 				</div>
 				<button type="submit">Envía tu mensaje</button>
 			</form>
@@ -169,6 +169,19 @@
 				</div>
 			</div>
 		</div>
+		<footer class="footer-container">
+			<h2>UNIX CREATIVE STUDIO</h2>
+			<nav class="footer-nav">
+				<a href="https://marmalade-hearing-794.notion.site/T-rminos-y-condiciones-1878ebfbb5708028a335fdc594e5ebde" target="_blank">Condiciones de Servicio</a>
+				<a href="https://marmalade-hearing-794.notion.site/Pol-tica-de-Privacidad-Unix-Creative-Studio-1878ebfbb570808c9344e9bd82325286" target="_blank">Política de Privacidad</a>
+			</nav>
+			<div class="social-links">
+				<a href="https://www.facebook.com/unix.creative.studio/"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/unix_studio_/"><i class="fab fa-instagram"></i></a>
+			</div>
+			<p>©unix.creative.studio Reservados todos los derechos.</p>
+			<p>Made in Belgium</p>
+		</footer>
 		<script src="main.js"></script>
 	</body>
 </html>

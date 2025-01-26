@@ -922,14 +922,81 @@ svg {
 	transition-delay: 600ms;
 }
 .footer-container {
-	background: linear-gradient(225deg, #fe5442 0%, #000000 100%);
-	margin-top: 4rem;
+	margin-top: 10rem;
+	background: rgba(20, 20, 20, 0.5);
+	backdrop-filter: blur(10px);
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	width: 100%;
 }
+
 .footer-container h2 {
+	font-size: 4rem;
 	text-align: center;
+	margin-bottom: 1rem;
 }
+
 .footer-container p {
+	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
+	font-size: 0.9rem;
+}
+
+.footer-nav {
+	display: flex;
+	gap: 2rem;
+	margin: 2rem 0;
+}
+
+.footer-nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 0.5rem 1rem;
+	border-radius: 100px;
+	background: rgba(255, 255, 255, 0.05);
+	transition: all 0.3s ease;
+}
+
+.footer-nav a:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.social-links {
+	display: flex;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.social-links a {
+	background: rgba(255, 255, 255, 0.05);
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+	background: rgba(255, 255, 255, 0.1);
+	transform: translateY(-2px);
+}
+
+.footer-madeby {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-top: 2rem;
+	padding: 0.5rem 1rem;
+	border-radius: 100px;
+	background: rgba(255, 255, 255, 0.05);
+	font-size: 0.8rem;
 }
 .works {
 	display: flex;
