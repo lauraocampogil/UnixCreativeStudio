@@ -726,7 +726,7 @@ section {
 	width: 100%;
 }
 .faqs {
-	min-height: 120vh;
+	min-height: 100vh;
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
