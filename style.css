@@ -157,21 +157,6 @@ section {
 	}
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-	.nav-container {
-		padding: 3.5rem;
-	}
-
-	.nav-links {
-		display: none;
-	}
-
-	.hero h1 {
-		font-size: 3rem;
-	}
-}
-
 .get-in-touch {
 	background: white;
 	color: black;
@@ -418,66 +403,6 @@ section {
 	color: rgba(255, 255, 255, 0.7);
 	line-height: 1.4;
 }
-/* Responsive Design */
-@media (max-width: 1024px) {
-	.nav-container {
-		width: 90%;
-		padding: 1rem 2rem;
-	}
-
-	.nav-links {
-		gap: 2rem;
-	}
-	.container {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.card {
-		width: 100%;
-		max-width: 400px;
-	}
-	.features-content {
-		grid-template-columns: repeat(2, 1fr);
-		gap: 20px;
-	}
-	.service-content {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.service-small-container {
-		width: 100%;
-		max-width: 400px;
-	}
-
-	.service-seo,
-	.service-googlemaps {
-		width: 100%;
-	}
-}
-
-@media (max-width: 768px) {
-	.nav-container {
-		width: 95%;
-		padding: 1rem;
-	}
-
-	.nav-links {
-		display: none;
-	}
-
-	.get-in-touch {
-		padding: 0.8rem 1.5rem;
-	}
-	.features-content {
-		grid-template-columns: 1fr;
-	}
-
-	.features > h2 {
-		font-size: 32px;
-	}
-}
 .features {
 	padding: 80px 20px;
 	max-width: 1200px;
@@ -706,13 +631,8 @@ section {
 	text-align: center;
 	width: 100%;
 }
-.faq-container > p {
-	text-align: center;
-	color: rgba(255, 255, 255, 0.7);
-	margin-bottom: 10px;
-}
 
-.faq-container > h2 {
+.faq-container h2 {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 10px;
@@ -727,7 +647,6 @@ section {
 	width: 100%;
 }
 .faqs {
-	min-height: 100vh;
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
@@ -881,7 +800,7 @@ svg {
 	font-weight: 500;
 	margin-top: 1rem;
 	cursor: pointer;
-	transition: all 0.3s ease;
+	transition: all 0.5s ease;
 	opacity: 0;
 	animation: fadeInUp 1s ease forwards;
 	animation-delay: 1s;
@@ -890,13 +809,13 @@ svg {
 .contact-form button:hover {
 	background: rgba(255, 255, 255, 0.2);
 	transform: translateY(30px);
-	transition: all 0.3s ease;
+	transition: all 0.5s ease;
 }
 .hidden {
 	opacity: 0;
 	filter: blur(5px);
 	transform: translateX(-100%);
-	transition: all 1.5s;
+	transition: all 2.5s;
 }
 .show {
 	opacity: 1;
@@ -1047,4 +966,276 @@ svg {
 }
 .slider .item:hover {
 	filter: grayscale(0);
+}
+/* Responsive Design */
+@media (max-width: 1200px) {
+	.steps {
+		gap: 1.5rem;
+	}
+
+	.step {
+		width: 350px;
+		height: 550px;
+	}
+	.service-content {
+		padding: 0 15px;
+	}
+
+	.service-project {
+		flex: 0 0 350px;
+	}
+}
+@media (max-width: 1024px) {
+	.nav-container {
+		width: 90%;
+		padding: 1rem 2rem;
+	}
+
+	.nav-links {
+		gap: 2rem;
+	}
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card {
+		width: 100%;
+		max-width: 400px;
+	}
+	.features-content {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+	.service-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service-small-container {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.service-seo,
+	.service-googlemaps {
+		width: 100%;
+	}
+	.steps {
+		flex-direction: column;
+		gap: 2rem;
+		width: 100%;
+		align-items: center;
+	}
+
+	.step {
+		width: 90%;
+		max-width: 450px;
+		margin: 0 auto;
+		height: auto;
+		min-height: 500px;
+	}
+
+	.step-project,
+	.step-application,
+	.step-receive {
+		height: auto;
+		min-height: 400px;
+	}
+
+	.how-it-works h2 {
+		font-size: 32px;
+		padding: 0 20px;
+	}
+	.service-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service-project,
+	.service-small-container {
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.service-seo,
+	.service-googlemaps {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-container {
+		width: 100%;
+		padding: 1rem;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.get-in-touch {
+		padding: 0.8rem 1.5rem;
+	}
+	.how-it-works h2 {
+		font-size: 2rem;
+	}
+	.features-content {
+		grid-template-columns: 1fr;
+	}
+
+	.features > h2 {
+		font-size: 24px;
+	}
+
+	.hero h1 {
+		font-size: 3rem;
+	}
+	.step {
+		width: 95%;
+		padding: 0.8rem;
+	}
+
+	.how-it-works-content {
+		padding: 0 30px;
+	}
+
+	.benefits li {
+		font-size: 13px;
+	}
+
+	.process-step {
+		padding: 6px 8px;
+	}
+
+	.process-step h4 {
+		font-size: 14px;
+	}
+
+	.process-step p {
+		font-size: 12px;
+	}
+	.service-content {
+		padding: 0 10px;
+	}
+
+	.services > h2 {
+		font-size: 28px;
+		padding: 0 20px;
+		margin-bottom: 40px;
+	}
+	.service-project {
+		height: 500px;
+	}
+
+	.service-seo,
+	.service-googlemaps {
+		height: 250px;
+		padding: 20px;
+	}
+
+	.service-price {
+		font-size: 40px;
+	}
+
+	.service-price-small {
+		font-size: 26px;
+	}
+
+	.service-benefits li,
+	.service-benefits-small li {
+		font-size: 13px;
+		margin-bottom: 8px;
+	}
+
+	.btn-service {
+		padding: 14px;
+		font-size: 14px;
+	}
+	.faq-container h2 {
+		font-size: 28px;
+	}
+	.question h3 {
+		font-size: 20px;
+	}
+	.answer p {
+		font-size: 15px;
+	}
+}
+@media (max-width: 480px) {
+	.circle {
+		padding: 0.5rem;
+		width: 45%;
+		border-radius: 100px;
+		align-items: center;
+		margin-bottom: 2rem;
+	}
+	.website-process {
+	}
+	.how-it-works h2 {
+		font-size: 24px;
+	}
+
+	.step {
+		width: 100%;
+	}
+
+	.step-project-text h3,
+	.step-application-text h3,
+	.step-receive-text h3 {
+		font-size: 18px;
+	}
+
+	.step-project-text p,
+	.step-application-text p,
+	.step-receive-text p {
+		font-size: 13px;
+	}
+
+	.price {
+		font-size: 28px;
+	}
+
+	.benefits {
+		margin: 16px 0;
+	}
+
+	.service-project,
+	.service-seo,
+	.service-googlemaps {
+		padding: 20px;
+	}
+
+	.service-project h2,
+	.service-seo h2,
+	.service-googlemaps h2 {
+		font-size: 20px;
+	}
+
+	.service-price {
+		font-size: 36px;
+		margin: 16px 0;
+	}
+
+	.service-price-small {
+		font-size: 24px;
+	}
+
+	.available-spot {
+		font-size: 12px;
+	}
+
+	.btn-service {
+		padding: 12px;
+		font-size: 13px;
+	}
+}
+/* Enhanced Media Queries for Better Mobile Support */
+
+/* Add smooth transitions for better user experience */
+.service-project,
+.service-seo,
+.service-googlemaps,
+.btn-service {
+	transition: all 0.3s ease;
 }
