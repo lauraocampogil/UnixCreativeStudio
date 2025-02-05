@@ -502,7 +502,7 @@ section {
 	background: rgba(255, 255, 255, 0.05);
 	color: rgba(255, 255, 255, 0.8);
 	padding: 0.5rem;
-	width: 15%;
+	width: auto;
 	border-radius: 100px;
 	display: flex;
 	align-items: center;
@@ -514,7 +514,7 @@ section {
 	background: rgba(255, 255, 255, 0.05);
 	color: rgba(255, 255, 255, 0.8);
 	padding: 0.5rem;
-	width: 10%;
+	width: auto;
 	border-radius: 100px;
 	display: flex;
 	align-items: center;
@@ -1032,6 +1032,12 @@ svg {
 
 	.service-project {
 		flex: 0 0 350px;
+	}
+	.circle {
+		width: auto;
+	}
+	.circle-service {
+		width: auto;
 	}
 }
 @media (max-width: 1024px) {
