@@ -1023,13 +1023,78 @@ svg {
 	}
 }
 @media (max-width: 1024px) {
+	.hamburger {
+		display: block;
+	}
+
 	.nav-container {
+		justify-content: space-between;
 		width: 90%;
 		padding: 1rem 2rem;
 	}
 
 	.nav-links {
-		gap: 2rem;
+		position: fixed;
+		right: -120%;
+		top: 0;
+		display: flex;
+		flex-direction: column;
+		background: #000000;
+		width: 100%;
+		height: 100vh;
+		padding-top: 100px; /* Add padding for the close button */
+		transition: 0.3s ease;
+		gap: 2.5rem;
+		align-items: center;
+		justify-content: flex-start; /* Align items to start from top */
+		z-index: 1999;
+	}
+
+	.nav-links.active {
+		right: 0;
+	}
+
+	.get-in-touch-desktop {
+		display: none;
+	}
+
+	.get-in-touch-mobile {
+		display: block;
+		margin-top: 3rem;
+	}
+
+	/* Hamburger Animation */
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.nav-links a {
+		font-size: 1rem;
+		opacity: 0.9;
+	}
+
+	/* Mobile contact button */
+	.nav-links .get-in-touch-mobile {
+		background: white;
+		color: black;
+		text-decoration: none;
+		padding: 1rem 2rem;
+		border-radius: 100px;
+		font-weight: 500;
+		transition: all 0.3s ease;
+	}
+
+	.nav-links .get-in-touch-mobile:hover {
+		background: rgba(255, 255, 255, 0.9);
+		transform: translateY(-2px);
 	}
 	.container {
 		flex-direction: column;
@@ -1082,6 +1147,15 @@ svg {
 	.how-it-works h2 {
 		font-size: 32px;
 	}
+	.website-process {
+		padding: 10px;
+		margin: 5px;
+		justify-content: space-evenly;
+		height: 85%;
+	}
+	.steps p {
+		margin-bottom: 5px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1100,14 +1174,14 @@ svg {
 		display: flex;
 		flex-direction: column;
 		background: #000000;
-		width: 100vw;
+		width: 100%;
 		height: 100vh;
-		padding-top: 80px; /* Add padding for the close button */
+		padding-top: 100px; /* Add padding for the close button */
 		transition: 0.3s ease;
 		gap: 2.5rem;
 		align-items: center;
 		justify-content: flex-start; /* Align items to start from top */
-		z-index: 1;
+		z-index: 1999;
 	}
 
 	.nav-links.active {
@@ -1189,6 +1263,7 @@ svg {
 
 	.benefits li {
 		font-size: 13px;
+		text-align: left;
 	}
 
 	.process-step {
@@ -1202,9 +1277,7 @@ svg {
 	.process-step p {
 		font-size: 12px;
 	}
-	.website-process {
-		height: 95%;
-	}
+
 	.service-content {
 		padding: 0 10px;
 	}
@@ -1227,6 +1300,7 @@ svg {
 	.service-benefits-small li {
 		font-size: 13px;
 		margin-bottom: 8px;
+		text-align: left;
 	}
 
 	.btn-service {
@@ -1262,7 +1336,10 @@ svg {
 		margin: 1rem 0;
 	}
 	.contact-container h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
+	}
+	.contact-container {
+		margin-top: 7rem;
 	}
 	.form-row {
 		display: initial;
@@ -1327,6 +1404,15 @@ svg {
 	.btn-service {
 		padding: 12px;
 		font-size: 13px;
+	}
+	.website-process {
+		padding: 10px;
+		margin: 5px;
+		justify-content: space-evenly;
+		height: 85%;
+	}
+	.steps p {
+		margin-bottom: 5px;
 	}
 }
 /* Enhanced Media Queries for Better Mobile Support */
