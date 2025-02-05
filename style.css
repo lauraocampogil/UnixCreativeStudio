@@ -92,6 +92,48 @@ section {
 .works-link:hover .arrow {
 	transform: translateX(5px);
 }
+.hamburger {
+	display: none;
+	cursor: pointer;
+	background: none;
+	border: none;
+	padding: 0.5rem;
+	z-index: 1000;
+}
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+.get-in-touch-desktop {
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-radius: 100px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.get-in-touch-desktop:hover {
+	background: rgba(255, 255, 255, 0.9);
+	transform: translateY(-2px);
+}
+.get-in-touch-mobile {
+	display: none;
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-radius: 100px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	margin-top: 2rem;
+}
 
 /* Hero Section */
 .hero {
@@ -157,20 +199,6 @@ section {
 	}
 }
 
-.get-in-touch {
-	background: white;
-	color: black;
-	text-decoration: none;
-	padding: 1rem 2rem;
-	border-radius: 100px;
-	font-weight: 500;
-	transition: all 0.3s ease;
-}
-
-.get-in-touch:hover {
-	background: rgba(255, 255, 255, 0.9);
-	transform: translateY(-2px);
-}
 .how-it-works-content {
 	display: flex;
 	flex-direction: column;
@@ -1051,16 +1079,74 @@ svg {
 }
 
 @media (max-width: 768px) {
-	.nav-container {
-		padding: 0.5rem;
+	.hamburger {
+		display: block;
 	}
 
 	.nav-links {
+		position: fixed;
+		left: -100%;
+		top: 0;
+		display: flex;
+		flex-direction: column;
+		background: rgba(0, 0, 0, 0.95);
+		backdrop-filter: blur(10px);
+		width: 100%;
+		height: 100vh;
+		padding-top: 100px;
+		transition: 0.3s;
+		gap: 2rem;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	/* Move the contact button inside nav-links for mobile */
+	.nav-links .get-in-touch-mobile {
+		background: white;
+		color: black;
+		text-decoration: none;
+		padding: 1rem 2rem;
+		border-radius: 100px;
+		font-weight: 500;
+		transition: all 0.3s ease;
+	}
+
+	.nav-links .get-in-touch-mobile:hover {
+		background: rgba(255, 255, 255, 0.9);
+		transform: translateY(-2px);
+	}
+
+	.nav-links.active {
+		left: 0;
+	}
+
+	.nav-container {
+		justify-content: space-between;
+	}
+
+	.get-in-touch-desktop {
 		display: none;
 	}
 
-	.get-in-touch {
-		padding: 0.8rem 1.5rem;
+	.get-in-touch-mobile {
+		display: block;
+	}
+
+	/* Hamburger Animation */
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.nav-links a {
+		font-size: 1.5rem;
 	}
 	.how-it-works h2 {
 		font-size: 28px;
