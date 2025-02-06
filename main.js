@@ -1,11 +1,11 @@
 // faq
 const faqs = document.querySelectorAll(".faq");
-
 faqs.forEach((faq) => {
 	faq.addEventListener("click", () => {
 		faq.classList.toggle("active");
 	});
 });
+
 // animation scroll
 const observer = new IntersectionObserver((entries) => {
 	entries.forEach((entry) => {
@@ -29,6 +29,7 @@ const navLinksAnchors = document.querySelectorAll(".nav-links a");
 hamburger.addEventListener("click", () => {
 	hamburger.classList.toggle("active");
 	navLinks.classList.toggle("active");
+	document.body.classList.toggle("menu-open"); // Add this line here
 });
 
 // Close menu when clicking a link
@@ -36,6 +37,7 @@ navLinksAnchors.forEach((link) => {
 	link.addEventListener("click", () => {
 		hamburger.classList.remove("active");
 		navLinks.classList.remove("active");
+		document.body.classList.remove("menu-open"); // Add this line here
 	});
 });
 
@@ -44,5 +46,6 @@ document.addEventListener("click", (e) => {
 	if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
 		hamburger.classList.remove("active");
 		navLinks.classList.remove("active");
+		document.body.classList.remove("menu-open"); // Add this line here
 	}
 });
