@@ -631,7 +631,9 @@ section {
 }
 
 .btn-service {
-	width: 100%;
+	display: block;
+	flex-shrink: 0;
+	box-sizing: border-box;
 	padding: 16px;
 	background: white;
 	border: none;
@@ -640,6 +642,8 @@ section {
 	font-weight: 500;
 	cursor: pointer;
 	transition: all 0.3s;
+	text-decoration: none;
+	width: 100%;
 }
 
 .btn-service:hover {

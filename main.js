@@ -22,30 +22,3 @@ const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
 
 // hamburgermenu
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const navLinksAnchors = document.querySelectorAll(".nav-links a");
-
-hamburger.addEventListener("click", () => {
-	hamburger.classList.toggle("active");
-	navLinks.classList.toggle("active");
-	document.body.classList.toggle("menu-open"); // Add this line here
-});
-
-// Close menu when clicking a link
-navLinksAnchors.forEach((link) => {
-	link.addEventListener("click", () => {
-		hamburger.classList.remove("active");
-		navLinks.classList.remove("active");
-		document.body.classList.remove("menu-open"); // Add this line here
-	});
-});
-
-// Close menu when clicking outside
-document.addEventListener("click", (e) => {
-	if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
-		hamburger.classList.remove("active");
-		navLinks.classList.remove("active");
-		document.body.classList.remove("menu-open"); // Add this line here
-	}
-});
