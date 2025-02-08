@@ -1143,6 +1143,11 @@ svg {
 	}
 }
 @media (max-width: 1024px) {
+	.hero p {
+		font-size: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 	.nav-links,
 	.get-in-touch-desktop {
 		display: none;
@@ -1182,6 +1187,10 @@ svg {
 		margin: 0 auto;
 		height: auto;
 		min-height: 500px;
+	}
+	.benefits li {
+		font-size: 13px;
+		text-align: left;
 	}
 
 	.service-content {
@@ -1264,6 +1273,11 @@ svg {
 
 	.hero h1 {
 		font-size: 3rem;
+	}
+	.hero p {
+		padding-left: 3rem;
+		padding-right: 3rem;
+		font-size: 1.2rem;
 	}
 	.step {
 		width: 95%;
@@ -1365,7 +1379,18 @@ svg {
 		margin-top: 3rem;
 	}
 }
-@media (max-width: 480px) {
+@media (max-width: 420px) {
+	.hero {
+		text-align: center;
+		align-items: center;
+		padding: 2.5rem;
+	}
+	.hero h1 {
+		font-size: 2.5rem;
+	}
+	.hero p {
+		font-size: 1rem;
+	}
 	.circle {
 		padding: 0.5rem;
 		width: auto;
@@ -1427,11 +1452,12 @@ svg {
 		padding: 12px;
 		font-size: 13px;
 	}
+	.process-step {
+		padding: 4px 6px;
+	}
 	.website-process {
-		padding: 10px;
-		margin: 5px;
-		justify-content: space-evenly;
-		height: 85%;
+		width: 100%;
+		align-items: center;
 	}
 	.steps p {
 		margin-bottom: 5px;
