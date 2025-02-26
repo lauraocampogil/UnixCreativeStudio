@@ -47,11 +47,106 @@ mobileLinks.forEach((link) => {
 	});
 });
 
-// Language switcher functionality
+// Translation functionality
+let translations = {};
+
+async function loadTranslations() {
+	try {
+		const response = await fetch("translations.json");
+		translations = await response.json();
+
+		// Get the saved language or default to "es"
+		const storedLang = localStorage.getItem("selectedLanguage") || "es";
+
+		// Apply translations
+		setLanguage(storedLang);
+	} catch (error) {
+		console.error("Error loading translations:", error);
+	}
+}
+
+function setLanguage(language) {
+	// Store the selected language preference
+	localStorage.setItem("selectedLanguage", language);
+	document.documentElement.lang = language;
+
+	// Update text content for elements with data-i18n attribute
+	const elements = document.querySelectorAll("[data-i18n]");
+	elements.forEach((element) => {
+		const keys = element.getAttribute("data-i18n").split(".");
+		let translation = translations[language];
+
+		for (const key of keys) {
+			translation = translation?.[key];
+		}
+
+		if (translation) {
+			if (element.tagName.toLowerCase() === "option") {
+				element.text = translation;
+			} else {
+				element.textContent = translation;
+			}
+		}
+	});
+
+	// Update placeholders
+	const placeholderElements = document.querySelectorAll("[data-i18n-placeholder]");
+	placeholderElements.forEach((element) => {
+		const keys = element.getAttribute("data-i18n-placeholder").split(".");
+		let translation = translations[language];
+
+		for (const key of keys) {
+			translation = translation?.[key];
+		}
+
+		if (translation) {
+			element.placeholder = translation;
+		}
+	});
+
+	// Update current language display
+	const currentLangElements = document.querySelectorAll(".current-lang");
+	currentLangElements.forEach((el) => {
+		el.textContent = language.toUpperCase();
+	});
+
+	// Update active class in language options
+	const langOptions = document.querySelectorAll(".lang-option");
+	langOptions.forEach((option) => {
+		if (option.getAttribute("data-lang") === language) {
+			option.classList.add("active");
+		} else {
+			option.classList.remove("active");
+		}
+	});
+
+	console.log(`Language changed to: ${language}`);
+}
+
+// Modified changeLanguage function to integrate with translations
+function changeLanguage(lang) {
+	setLanguage(lang);
+}
+
+// Enhance your existing code with these modifications
 document.addEventListener("DOMContentLoaded", function () {
+	// First load translations
+	loadTranslations();
+
 	// Mobile language selector toggle
 	const mobileLangSelector = document.querySelector(".mobile-language-selector");
 	const mobileLangToggle = document.querySelector(".mobile-language-toggle");
+
+	// Desktop language selector toggle
+	const desktopLangSelector = document.querySelector(".language-selector");
+	const desktopLangToggle = document.querySelector(".language-toggle");
+
+	if (desktopLangToggle) {
+		desktopLangToggle.addEventListener("click", function (e) {
+			e.stopPropagation();
+			desktopLangSelector.classList.toggle("active");
+		});
+	}
 
 	if (mobileLangToggle) {
 		mobileLangToggle.addEventListener("click", function (e) {
@@ -62,7 +157,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Change language functionality
 	const langOptions = document.querySelectorAll(".lang-option");
-	const currentLangElements = document.querySelectorAll(".current-lang");
 
 	langOptions.forEach((option) => {
 		option.addEventListener("click", function (e) {
@@ -71,75 +165,26 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Get the language code
 			const lang = this.getAttribute("data-lang");
 
-			// Update the current language display
-			currentLangElements.forEach((el) => {
-				el.textContent = lang.toUpperCase();
-			});
+			// Change language (now calls setLanguage internally)
+			changeLanguage(lang);
 
-			// Remove active class from all options
-			langOptions.forEach((opt) => {
-				opt.classList.remove("active");
-			});
-
-			// Add active class to clicked option
-			this.classList.add("active");
-
-			// Close the mobile dropdown
+			// Close the dropdowns
 			if (mobileLangSelector) {
 				mobileLangSelector.classList.remove("active");
 			}
-
-			// Change language logic
-			changeLanguage(lang);
+			if (desktopLangSelector) {
+				desktopLangSelector.classList.remove("active");
+			}
 		});
 	});
 
-	// Close mobile language dropdown when clicking outside
+	// Close language dropdowns when clicking outside
 	document.addEventListener("click", function (e) {
 		if (mobileLangSelector && !mobileLangSelector.contains(e.target)) {
 			mobileLangSelector.classList.remove("active");
 		}
+		if (desktopLangSelector && !desktopLangSelector.contains(e.target) && !desktopLangToggle.contains(e.target)) {
+			desktopLangSelector.classList.remove("active");
+		}
 	});
 });
-
-// Function to handle language change
-function changeLanguage(lang) {
-	// Store the selected language in localStorage
-	localStorage.setItem("selectedLanguage", lang);
-
-	// Optionally redirect to language-specific URL
-	// window.location.href = `/${lang}/index.html`;
-
-	// Or if you're using a single-page approach with translations stored in JS:
-	// loadTranslations(lang);
-
-	console.log(`Language changed to: ${lang}`);
-}
-
-// Function to load the saved language on page load
-function loadSavedLanguage() {
-	const savedLang = localStorage.getItem("selectedLanguage");
-	if (savedLang) {
-		// Update UI to show saved language
-		const currentLangElements = document.querySelectorAll(".current-lang");
-		currentLangElements.forEach((el) => {
-			el.textContent = savedLang.toUpperCase();
-		});
-
-		// Update active class in dropdowns
-		const langOptions = document.querySelectorAll(".lang-option");
-		langOptions.forEach((option) => {
-			if (option.getAttribute("data-lang") === savedLang) {
-				option.classList.add("active");
-			} else {
-				option.classList.remove("active");
-			}
-		});
-
-		// Apply saved language to page
-		// loadTranslations(savedLang);
-	}
-}
-
-// Call the function to load saved language when page loads
-document.addEventListener("DOMContentLoaded", loadSavedLanguage);

@@ -1,0 +1,235 @@
+{
+	"es": {
+		"nav": {
+			"features": "CARACTERÍSTICAS",
+			"services": "SERVICIOS",
+			"works": "TRABAJOS",
+			"faq": "FAQ",
+			"contact": "Contactanos"
+		},
+		"nav_mobile": {
+			"features": "CARACTERÍSTICAS",
+			"services": "SERVICIOS",
+			"works": "TRABAJOS",
+			"faq": "FAQ",
+			"contact": "Contactanos"
+		},
+		"language": {
+			"es": "Español",
+			"en": "Inglés",
+			"fr": "Francés",
+			"nl": "Holandés"
+		},
+		"language_mobile": {
+			"es": "Español",
+			"en": "Inglés",
+			"fr": "Francés",
+			"nl": "Holandés"
+		},
+		"title_page": {
+			"how_it_works": "Sólo 3 sencillos pasos para <br />obtener todo lo que necesitas",
+			"features": "Tu sonrisa es nuestra meta,<br />Tu propones - Nosotros lo hacemos realidad",
+			"services": "Nuestros servicios unicos<br />A precios competitivos que nos distinguen",
+			"faq": "Respondemos a tus preguntas"
+		},
+		"hero": {
+			"title": "LLEVA TU GIMNASIO<br />A OTRO NIVEL",
+			"subtitle": "Descubre las creaciones mas increibles para elevar tu sitio web y posicionar mejor tu marca"
+		},
+		"button": {
+			"hero_service": "Ver Servicios",
+			"start": "Empezar"
+		},
+		"about_page": {
+			"how_it_works": "Como funciona",
+			"features": "Porque nosotros",
+			"services": "Servicios",
+			"works": "Trabajos de clientes",
+			"faq": "Preguntas Frecuentes"
+		},
+		"cards_title": {
+			"project": "Proyecto Unico",
+			"to_do": "Hacer",
+			"proces": "Proceso de Desarrollo"
+		},
+		"cards_text": {
+			"website": "Página de Destino o Sitio Web",
+			"complete_forum": "Completa el formulario",
+			"tell_us_about_your_enterprise": "Cuéntanos más sobre tu negocio",
+			"planificacion_and_design": "Planificación y Diseño",
+			"creation_wireframes": "Creación de wireframes y diseño visual con Figma",
+			"frontend": "Desarrollo Frontend",
+			"implentation": "Implementación de diseño en HTML, CSS y JavaScript con WebFlow. Creacion de chatbot",
+			"launch": "Lanzamiento",
+			"pub_chatbot_seo_googlemaps": "Publicación de chatbot, SEO y Google Maps optimizacion",
+			"receive_project": "<strong>3.</strong> Recibe tu proyecto",
+			"receive_your_project": "Recibe tu proyecto en el tiempo acordado y disfruta de tu servicio"
+		},
+		"cards_benefits": {
+			"more_pages": "Mas 5 páginas:",
+			"5_days": "Entrega en 5 días",
+			"profesional": "Profesional",
+			"responsive": "Responsivo",
+			"code": "Desarrollo de código web",
+			"satisfaction": "Satisfacción garantizada"
+		},
+		"cards_tag": {
+			"website": "Sitio Web",
+			"chatbot": "Chatbot",
+			"seo": "SEO"
+		},
+		"cards": {
+			"cards.choose_the_plan": "<strong>1.</strong> Selecciona el plan",
+			"plan_that_fits_you": "Elige el plan que mejor se adapte a tus necesidades y presupuesto",
+			"done": "Completados 6",
+			"send_application": "<strong>2.</strong> Envíanos tu solicitud",
+			"send_details": "Envíanos los detalles de tu proyecto y te contactaremos en breve"
+		},
+		"placeholder": {
+			"title_of_assignment": "Titulo de la tarea"
+		},
+		"features": {
+			"subtitle": {
+				"profesional": "Profesional",
+				"responsive": "Responsivo",
+				"personalize": "Personalizable",
+				"optimized": "Optimizado",
+				"without_prices": "Sin precios imprecisos",
+				"super_fast": "Extremadamente rápido"
+			},
+			"text": {
+				"help_business": "Ayudamos a gimnasios y coaches personales a crecer su presencia online",
+				"enjoy_experience": "Disfruta de una experiencia de usuario perfecta en cualquier dispositivo",
+				"personalize_your_website": "Personaliza tu sitio web con colores, fuentes y estilos únicos",
+				"optimized_seo": "Optimizado para SEO y Google Maps para una mejor visibilidad",
+				"clear_prices": "Precios claros. Sin estimaciones imprecisas ni pagos superiores a los debidos.",
+				"dont_wait": "No hay que esperar: nos sumergimos inmediatamente después de tu solicitud."
+			}
+		},
+		"services": {
+			"span": {
+				"2_places": "2 lugares disponibles",
+				"3_places": "3 lugares disponibles"
+			}
+		},
+		"service": {
+			"title": {
+				"unique_project": "Proyecto Unico",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"subtitle": {
+				"landingpage": "Página de destino o sitio web",
+				"subtitle": "Página de destino o sitio web",
+				"assistance": "Asistencia automática 24/7",
+				"visibility": "Visibilidad garantizada en buscadores"
+			},
+			"benefits": {
+				"website": {
+					"more_pages": "Más de 5 páginas",
+					"delivery": "Entrega en 5 días",
+					"profesional": "Profesional",
+					"responsive": "Responsivo",
+					"code": "Desarrollo de código web",
+					"webflow_development": "Desarrollo en Webflow",
+					"personalize": "Personalizado",
+					"satisfaction": "Satisfacción garantizada"
+				},
+				"chatbot": {
+					"attention": "Atención 24/7 sin personal extra",
+					"less_cost": "40% menos costos de atención",
+					"responses": "Respuestas instantáneas",
+					"filter": "Filtro de leads efectivo",
+					"integration": "Integración en redes sociales",
+					"personalize": "Personalización de marca",
+					"escale": "Escalabilidad ilimitada",
+					"analyse": "Análisis de preguntas frecuentes"
+				},
+				"seo": {
+					"traffic": "Más tráfico orgánico",
+					"conversions": "Mejores conversiones",
+					"competition": "Supera a tu competencia",
+					"positioning": "Posicionamiento local",
+					"keywords": "Palabras clave rentables",
+					"content": "Contenido optimizado",
+					"report": "Reportes mensuales",
+					"roi": "ROI medible"
+				}
+			},
+			"price": {
+				"website": "€2.499",
+				"chatbot": "€549",
+				"seo": "€349"
+			},
+			"seo": {
+				"title": "SEO",
+				"subtitle": "Optimización para motores de búsqueda",
+				"price": "Desde 300€",
+				"button": "Ver más"
+			}
+		},
+		"faq": {
+			"question": {
+				"what_services_do_we_offer": "¿Qué servicios ofrecemos?",
+				"how_quickly_will_i_receive_my_services": "¿Qué tan rápido recibiré mis servicios?",
+				"why_unix_studio_and_not_other_agencies": "¿Porque Unix Studio y no otras agencias?",
+				"how_unix_studio_works": "¿Como funciona Unix Studio?",
+				"hosting_and_domain": "¿Ofrecen servicios de hosting y registro de dominios?",
+				"you_can_redesign_an_existing_website": "¿Puedes rediseñar un sitio web existente?",
+				"dont_like_service": "¿Qué pasa si no me gusta el servicio?",
+				"refund": "¿Hay algún reembolso si no me gusta el servicio?",
+				"in_which_programs_the_services": "¿En qué programas los servicios?",
+				"seo": "¿Como funciona SEO?",
+				"chatbot": "¿Como funciona los chatbots?"
+			},
+			"answer": {
+				"what_services_do_we_offer": "Nos especializamos en diseño web, desarrollo web, asistencia automatica integrada en redes sociales y sitio web, optimización SEO y Google Maps de alto ranking.",
+				"how_quickly_will_i_receive_my_services": "En promedio, la mayoría de las solicitudes se completan en solo cinco días o menos. Sin embargo, las solicitudes más complejas pueden demorar más.",
+				"why_unix_studio_and_not_other_agencies": "En Unix Studio fusionamos diseño estratégico y desarrollo técnico para crear sitios web que no solo se ven extraordinarios sino que generan resultados medibles para tu negocio. Nuestro compromiso con la transparencia y el soporte post-lanzamiento garantiza una inversión segura y una relación duradera gracias al SEO y la asistencia automatica.",
+				"how_unix_studio_works": "1. Selecciona el plan acorde a tus necesidades<br />2. Paga con Stripe <br />3. Recibiras un google form con preguntas sobre tu negocio <br />4. Nos pondremos en contact contigo <br />5. Te enviaremos un contrato al que firmaras para no tener ningun problema de pago y los plazos<br />6. Recibe tu servicio!",
+				"hosting_and_domain": "Sí, ofrecemos soluciones de alojamiento integrales y ayudamos con el registro de dominios para simplificar la configuración de su presencia en línea.",
+				"you_can_redesign_an_existing_website": "¡Por supuesto! Podemos renovar su sitio web actual para mejorar su funcionalidad, diseño y experiencia de usuario.",
+				"dont_like_service": "¡No te preocupes! Seguiremos revisando el servicio hasta que estés 100% satisfecho.",
+				"refund": "Debido a la alta calidad del trabajo, no se emitirán reembolsos.",
+				"in_which_programs_the_services": "Diseñamos sitios web profesionales con Figma y los implementamos en Webflow o mediante desarrollo personalizado. Nuestros chatbots combinan la potencia visual de Voiceflow con la flexibilidad de Python para integraciones avanzadas. El SEO se potencia con herramientas especializadas de Chrome y optimizamos tu presencia local mediante GoHighLevel para dominar Google Maps.",
+				"seo": "Analizamos tu web con herramientas avanzadas de Chrome para verificar su optimización. Integramos Google Analytics y Hotjar para medir tráfico y comportamiento de usuarios. Una vez optimizado tu sitio al 100% para buscadores, utilizamos GoHighLevel para potenciar tu posicionamiento en Google Maps mediante gestión estratégica de reseñas. SEO puede tardar entre 1 a 3 meses.",
+				"chatbot": "Automatizamos la comunicación de tu gimnasio o negocio de coaching, liberando horas valiosas de atención al cliente. El chatbot responde instantáneamente a las preguntas frecuentes con el tono y estilo propio de tu marca. Mientras tú te enfocas en entrenar, nuestro sistema atiende consultas sobre horarios, precios y servicios 24/7, convirtiendo visitas en clientes. Implementación del chatbot en 5 dias."
+			}
+		},
+		"footer": {
+			"name_brand": "UNIX CREATIVE STUDIO",
+			"terms_of_service": "Condiciones de Servicio",
+			"privacy_policy": "Política de Privacidad",
+			"copy": "©unix.creative.studio <br />Reservados todos los derechos.",
+            "made_in_belgium": "Hecho en Bélgica"
+		}
+	},
+
+	"en": {
+		"nav": {
+			"features": "FEATURES",
+			"services": "SERVICES",
+			"works": "WORKS",
+			"faq": "FAQ",
+			"contact": "Contact us"
+		}
+	},
+	"fr": {
+		"nav": {
+			"features": "CARACTÉRISTIQUES",
+			"services": "SERVICES",
+			"works": "TRAVAUX",
+			"faq": "FAQ",
+			"contact": "Contactez-nous"
+		}
+	},
+	"nl": {
+		"nav": {
+			"features": "KENMERKEN ",
+			"services": "DIENSTEN",
+			"works": "WERKEN",
+			"faq": "FAQ",
+			"contact": "Contacteer ons"
+		}
+	}
+}
