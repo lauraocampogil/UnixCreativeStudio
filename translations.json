@@ -49,46 +49,51 @@
 			"faq": "Preguntas Frecuentes",
 			"contact": "Contacto"
 		},
-		"cards_title": {
-			"project": "Proyecto Unico",
-			"to_do": "Hacer",
-			"proces": "Proceso de Desarrollo"
-		},
-		"cards_text": {
-			"website": "Página de Destino o Sitio Web",
-			"complete_forum": "Completa el formulario",
-			"tell_us_about_your_enterprise": "Cuéntanos más sobre tu negocio",
-			"planificacion_and_design": "Planificación y Diseño",
-			"creation_wireframes": "Creación de wireframes y diseño visual con Figma",
-			"frontend": "Desarrollo Frontend",
-			"implentation": "Implementación de diseño en HTML, CSS y JavaScript con WebFlow. Creacion de chatbot",
-			"launch": "Lanzamiento",
-			"pub_chatbot_seo_googlemaps": "Publicación de chatbot, SEO y Google Maps optimizacion",
-			"receive_project": "<strong>3.</strong> Recibe tu proyecto",
-			"receive_your_project": "Recibe tu proyecto en el tiempo acordado y disfruta de tu servicio"
-		},
-		"cards_benefits": {
-			"more_pages": "Mas 5 páginas:",
-			"5_days": "Entrega en 5 días",
-			"profesional": "Profesional",
-			"responsive": "Responsivo",
-			"code": "Desarrollo de código web",
-			"satisfaction": "Satisfacción garantizada"
-		},
-		"cards_tag": {
-			"website": "Sitio Web",
-			"chatbot": "Chatbot",
-			"seo": "SEO"
-		},
 		"cards": {
-			"cards.choose_the_plan": "<strong>1.</strong> Selecciona el plan",
-			"plan_that_fits_you": "Elige el plan que mejor se adapte a tus necesidades y presupuesto",
-			"done": "Completados 6",
-			"send_application": "<strong>2.</strong> Envíanos tu solicitud",
-			"send_details": "Envíanos los detalles de tu proyecto y te contactaremos en breve"
+			"title": {
+				"project": "Proyecto Unico",
+				"to_do": "Hacer",
+				"proces": "Proceso de Desarrollo"
+			},
+			"text": {
+				"website": "Página de Destino o Sitio Web",
+				"done": "Completados 6",
+				"complete_forum": "Completa el formulario",
+				"tell_us_about_your_enterprise": "Cuéntanos más sobre tu negocio",
+				"planificacion_and_design": "Planificación y Diseño",
+				"creation_wireframes": "Creación de wireframes y diseño visual con Figma",
+				"frontend": "Desarrollo Frontend",
+				"implementation": "Implementación en HTML, CSS y JavaScript con WebFlow. Creacion de chatbot",
+				"launch": "Lanzamiento",
+				"pub_chatbot_seo_googlemaps": "Publicación de chatbot, SEO y Google Maps optimizacion"
+			},
+			"benefits": {
+				"more_pages": "Mas 5 páginas: + €500 por cada pagina",
+				"5_days": "Entrega en 5 días",
+				"profesional": "Profesional",
+				"responsive": "Responsivo",
+				"code": "Desarrollo de código web",
+				"satisfaction": "Satisfacción garantizada"
+			},
+			"tag": {
+				"website": "Sitio Web",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"number": {
+				"choose_the_plan": "<strong>1.</strong> Selecciona el plan",
+				"send_application": "<strong>2.</strong> Envíanos tu solicitud",
+				"receive_project": "<strong>3.</strong> Recibe tu proyecto"
+			},
+			"textnumber": {
+				"plan_that_fits_you": "Elige el plan que mejor se adapte a tus necesidades y presupuesto",
+				"send_details": "Envíanos los detalles de tu proyecto y te contactaremos en breve",
+				"receive_your_project": "Recibe tu proyecto en el tiempo acordado y disfruta de tu servicio"
+			}
 		},
 		"placeholder": {
 			"title_of_assignment": "Titulo de la tarea",
+			"description_needed": "Proporcione una descripción suficiente del proyecto.",
 			"introduce_your_name": "Introduce tu nombre",
 			"introduce_your_mail": "Ingresa tu correo electronico",
 			"introduce_your_message": "Introduce tu mensaje"
@@ -131,7 +136,7 @@
 			},
 			"benefits": {
 				"website": {
-					"more_pages": "Más de 5 páginas",
+					"more_pages": "Más de 5 páginas: + €500 por cada pagina",
 					"delivery": "Entrega en 5 días",
 					"profesional": "Profesional",
 					"responsive": "Responsivo",
@@ -211,7 +216,7 @@
 			"title": "Estamos aquí para apoyarte",
 			"subtitle": "La atención al cliente es nuestra máxima prioridad. Estamos aquí para responder a todas tus preguntas.",
 			"form": {
-				"name": "Nombre",
+				"name": "Nombre completo",
 				"mail": "Email",
 				"message": "Mensaje"
 			}
@@ -268,46 +273,52 @@
 			"faq": "Frequently Asked Questions",
 			"contact": "Contact"
 		},
-		"cards_title": {
-			"project": "Unique Project",
-			"to_do": "To Do",
-			"proces": "Development Process"
-		},
-		"cards_text": {
-			"website": "Landing Page or Website",
-			"complete_forum": "Complete the form",
-			"tell_us_about_your_enterprise": "Tell us more about your business",
-			"planificacion_and_design": "Planning and Design",
-			"creation_wireframes": "Wireframe creation and visual design with Figma",
-			"frontend": "Frontend Development",
-			"implentation": "Design implementation in HTML, CSS, and JavaScript with WebFlow. Chatbot creation",
-			"launch": "Launch",
-			"pub_chatbot_seo_googlemaps": "Chatbot deployment, SEO, and Google Maps optimization",
-			"receive_project": "<strong>3.</strong> Receive Your Project",
-			"receive_your_project": "Receive your project on time and enjoy your service"
-		},
-		"cards_benefits": {
-			"more_pages": "More than 5 pages:",
-			"5_days": "Delivery in 5 days",
-			"profesional": "Professional",
-			"responsive": "Responsive",
-			"code": "Web code development",
-			"satisfaction": "Guaranteed satisfaction"
-		},
-		"cards_tag": {
-			"website": "Website",
-			"chatbot": "Chatbot",
-			"seo": "SEO"
-		},
 		"cards": {
-			"cards.choose_the_plan": "<strong>1.</strong> Choose the Plan",
-			"plan_that_fits_you": "Select the plan that best suits your needs and budget",
-			"done": "Completed 6",
-			"send_application": "<strong>2.</strong> Send Your Request",
-			"send_details": "Send us the details of your project, and we will contact you shortly"
+			"title": {
+				"project": "Unique Project",
+				"to_do": "To Do",
+				"proces": "Development Process"
+			},
+			"text": {
+				"website": "Landing Page or Website",
+				"done": "Completed 6",
+				"complete_forum": "Complete the form",
+				"tell_us_about_your_enterprise": "Tell us more about your business",
+				"planificacion_and_design": "Planning and Design",
+				"creation_wireframes": "Creation of wireframes and visual design with Figma",
+				"frontend": "Frontend Development",
+				"implementation": "Implementation in HTML, CSS, and JavaScript with WebFlow. Creation of chatbot",
+				"launch": "Launch",
+				"pub_chatbot_seo_googlemaps": "Publishing chatbot, SEO, and Google Maps optimization"
+			},
+			"benefits": {
+				"more_pages": "More than 5 pages : + $500 for each page",
+				"5_days": "Delivery in 5 days",
+				"profesional": "Professional",
+				"responsive": "Responsive",
+				"code": "Web code development",
+				"satisfaction": "Satisfaction guaranteed"
+			},
+			"tag": {
+				"website": "Website",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"number": {
+				"choose_the_plan": "<strong>1.</strong> Choose the plan",
+				"send_application": "<strong>2.</strong> Send us your request",
+				"receive_project": "<strong>3.</strong> Receive your project"
+			},
+			"textnumber": {
+				"plan_that_fits_you": "Choose the plan that best suits your needs and budget",
+				"send_details": "Send us the details of your project, and we will contact you shortly",
+				"receive_your_project": "Receive your project on time and enjoy your service"
+			}
 		},
+
 		"placeholder": {
 			"title_of_assignment": "Task Title",
+			"description_needed": "Provide a sufficient description of the project.",
 			"introduce_your_name": "Enter Your Name",
 			"introduce_your_mail": "Enter Your Email",
 			"introduce_your_message": "Enter Your Message"
@@ -350,7 +361,7 @@
 			},
 			"benefits": {
 				"website": {
-					"more_pages": "More than 5 pages",
+					"more_pages": "More than 5 pages: + $500 for each page",
 					"delivery": "Delivery in 5 days",
 					"profesional": "Professional",
 					"responsive": "Responsive",
@@ -404,6 +415,19 @@
 				"in_which_programs_the_services": "Which programs do you use for services?",
 				"seo": "How does SEO work?",
 				"chatbot": "How do chatbots work?"
+			},
+			"answer": {
+				"what_services_do_we_offer": "We specialize in web design, web development, integrated automatic assistance on social networks and websites, SEO optimization and high ranking Google Maps.",
+				"how_quickly_will_i_receive_my_services": "On average, most requests are completed in just five days or less. However, more complex requests may take longer.",
+				"why_unix_studio_and_not_other_agencies": "At Unix Studio we merge strategic design and technical development to create websites that not only look amazing but generate measurable results for your business. Our commitment to transparency and post-launch support ensures a safe investment and a long-lasting relationship thanks to SEO and automated assistance.",
+				"how_unix_studio_works": "1. Select the plan that best suits your needs<br />2. Pay with Stripe <br />3. You will receive a Google form with questions about your business <br />4. We will contact you <br />5. We will send you a contract that you will sign to avoid any payment problems and deadlines<br />6. Receive your service!",
+				"hosting_and_domain": "Yes, we offer comprehensive hosting solutions and help with domain registration to simplify setting up your online presence.",
+				"you_can_redesign_an_existing_website": "Of course! We can revamp your current website to improve its functionality, design and user experience.",
+				"dont_like_service": "Don't worry! We will keep checking the service until you are 100% satisfied.",
+				"refund": "Due to the high quality of the work, no refunds will be issued.",
+				"in_which_programs_the_services": "We design professional websites with Figma and implement them in Webflow or through custom development. Our chatbots combine the visual power of Voiceflow with the flexibility of Python for advanced integrations. SEO is enhanced with specialized Chrome tools and we optimize your local presence using GoHighLevel to dominate Google Maps.",
+				"seo": "We analyze your website with advanced Chrome tools to verify its optimization. We integrate Google Analytics and Hotjar to measure traffic and user behavior. Once your site is 100% optimized for search engines, we use GoHighLevel to boost your positioning on Google Maps through strategic review management. SEO can take between 1 to 3 months.",
+				"chatbot": "We automate your gym or coaching business's communication, freeing up valuable hours of customer service. The chatbot instantly answers frequently asked questions in your brand's own tone and style. While you focus on training, our system answers queries about schedules, prices and services 24/7, converting visitors into clients. Chatbot implementation in 5 days."
 			}
 		},
 		"footer": {
@@ -412,6 +436,15 @@
 			"privacy_policy": "Privacy Policy",
 			"copy": "©unix.creative.studio <br />All rights reserved.",
 			"made_in_belgium": "Made in Belgium"
+		},
+		"contact": {
+			"title": "We are here to support you",
+			"subtitle": "Customer care is our top priority. We are here to answer all your questions.",
+			"form": {
+				"name": "Full name",
+				"mail": "E-mail",
+				"message": "Message"
+			}
 		}
 	},
 
@@ -465,23 +498,72 @@
 			"faq": "Questions fréquentes",
 			"contact": "Contact"
 		},
-		"cards_title": {
-			"project": "Projet unique",
-			"to_do": "À faire",
-			"proces": "Processus de développement"
+		"cards": {
+			"title": {
+				"project": "Projet Unique",
+				"to_do": "À Faire",
+				"proces": "Processus de Développement"
+			},
+			"text": {
+				"website": "Page d'atterrissage ou Site Web",
+				"done": "6 Complétés",
+				"complete_forum": "Remplissez le formulaire",
+				"tell_us_about_your_enterprise": "Parlez-nous de votre entreprise",
+				"planificacion_and_design": "Planification et Conception",
+				"creation_wireframes": "Création de wireframes et conception visuelle avec Figma",
+				"frontend": "Développement Frontend",
+				"implementation": "Implémentation en HTML, CSS et JavaScript avec WebFlow. Création d'un chatbot",
+				"launch": "Lancement",
+				"pub_chatbot_seo_googlemaps": "Publication du chatbot, SEO et optimisation Google Maps"
+			},
+			"benefits": {
+				"more_pages": "Plus de 5 pages: + €500 par page",
+				"5_days": "Livraison en 5 jours",
+				"profesional": "Professionnel",
+				"responsive": "Responsif",
+				"code": "Développement de code web",
+				"satisfaction": "Satisfaction garantie"
+			},
+			"tag": {
+				"website": "Site Web",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"number": {
+				"choose_the_plan": "<strong>1.</strong> Choisissez le plan",
+				"send_application": "<strong>2.</strong> Envoyez-nous votre demande",
+				"receive_project": "<strong>3.</strong> Recevez votre projet"
+			},
+			"textnumber": {
+				"plan_that_fits_you": "Choisissez le plan qui correspond le mieux à vos besoins et à votre budget",
+				"send_details": "Envoyez-nous les détails de votre projet et nous vous contacterons rapidement",
+				"receive_your_project": "Recevez votre projet dans les délais convenus et profitez de votre service"
+			}
 		},
-		"cards_text": {
-			"website": "Page d'accueil ou site web",
-			"complete_forum": "Remplissez le formulaire",
-			"tell_us_about_your_enterprise": "Parlez-nous de votre entreprise",
-			"planificacion_and_design": "Planification et conception",
-			"creation_wireframes": "Création de wireframes et conception visuelle avec Figma",
-			"frontend": "Développement Frontend",
-			"implentation": "Implémentation du design en HTML, CSS et JavaScript avec WebFlow. Création de chatbot",
-			"launch": "Lancement",
-			"pub_chatbot_seo_googlemaps": "Déploiement du chatbot, optimisation SEO et Google Maps",
-			"receive_project": "<strong>3.</strong> Recevez votre projet",
-			"receive_your_project": "Recevez votre projet à temps et profitez de votre service"
+		"placeholder": {
+			"title_of_assignment": "Titre de la tâche",
+			"description_needed": "Fournir une description suffisante du projet.",
+			"introduce_your_name": "Entrez votre nom",
+			"introduce_your_mail": "Entrez votre email",
+			"introduce_your_message": "Entrez votre message"
+		},
+		"features": {
+			"subtitle": {
+				"profesional": "Professionnel",
+				"responsive": "Sensible",
+				"personalize": "Personnalisable",
+				"optimized": "Optimisé",
+				"without_prices": "Pas de prix flous",
+				"super_fast": "Extrêmement rapide"
+			},
+			"text": {
+				"help_business": "Nous aidons les salles de sport et les coachs personnels à développer leur présence en ligne",
+				"enjoy_experience": "Bénéficiez d'une expérience utilisateur fluide sur n'importe quel appareil",
+				"personalize_your_website": "Personnalisez votre site Web avec des couleurs, des polices et des styles uniques",
+				"optimized_seo": "SEO et Google Maps optimisés pour une meilleure visibilité",
+				"clear_prices": "Des tarifs clairs. Pas d'estimations vagues ni de paiements en trop.",
+				"dont_wait": "Pas d'attente : nous intervenons directement après votre demande."
+			}
 		},
 		"faq": {
 			"question": {
@@ -496,6 +578,79 @@
 				"in_which_programs_the_services": "Quels programmes utilisez-vous pour vos services ?",
 				"seo": "Comment fonctionne le SEO ?",
 				"chatbot": "Comment fonctionnent les chatbots ?"
+			},
+			"answer": {
+				"what_services_do_we_offer": "Nous sommes spécialisés dans la conception de sites Web, le développement Web, l'assistance automatique intégrée sur les réseaux sociaux et les sites Web, l'optimisation SEO et le classement élevé de Google Maps.",
+				"how_quickly_will_i_receive_my_services": "En moyenne, la plupart des demandes sont traitées en cinq jours ou moins. Toutefois, les demandes plus complexes peuvent prendre plus de temps.",
+				"why_unix_studio_and_not_other_agencies": "Chez Unix Studio, nous combinons conception stratégique et développement technique pour créer des sites Web qui non seulement sont extraordinaires, mais génèrent également des résultats mesurables pour votre entreprise. Notre engagement en matière de transparence et d'accompagnement post-lancement garantit un investissement sûr et une relation durable grâce au référencement et à l'assistance automatisée.",
+				"how_unix_studio_works": "1. Sélectionnez le plan qui correspond le mieux à vos besoins<br />2. Payer avec Stripe <br />3. Vous recevrez un formulaire Google avec des questions sur votre entreprise <br />4. Nous vous contacterons<br />5. Nous vous enverrons un contrat que vous signerez afin que vous n'ayez aucun problème de paiement et de délais<br />6. Obtenez votre service!",
+				"hosting_and_domain": "Oui, nous proposons des solutions d'hébergement complètes et une aide à l'enregistrement de domaine pour simplifier la configuration de votre présence en ligne.",
+				"you_can_redesign_an_existing_website": "Bien sûr! Nous pouvons réorganiser votre site Web actuel pour améliorer sa fonctionnalité, sa conception et son expérience utilisateur.",
+				"dont_like_service": "Ne t'inquiète pas! Nous continuerons à évaluer le service jusqu'à ce que vous soyez satisfait à 100 %.",
+				"refund": "En raison de la haute qualité du travail, aucun remboursement ne sera émis.",
+				"in_which_programs_the_services": "Nous concevons des sites Web professionnels avec Figma et les implémentons dans Webflow ou via un développement personnalisé. Nos chatbots combinent la puissance visuelle de Voiceflow avec la flexibilité de Python pour des intégrations avancées. Le référencement est amélioré avec des outils Chrome spécialisés et nous optimisons votre présence locale en utilisant GoHighLevel pour dominer Google Maps.",
+				"seo": "Nous analysons votre site Web avec des outils Chrome avancés pour vérifier son optimisation. Nous intégrons Google Analytics et Hotjar pour mesurer le trafic et le comportement des utilisateurs. Une fois votre site 100% optimisé pour les moteurs de recherche, nous utilisons GoHighLevel pour booster votre positionnement sur Google Maps grâce à une gestion stratégique des avis. Le référencement peut prendre entre 1 et 3 mois.",
+				"chatbot": "Nous automatisons la communication de votre salle de sport ou de votre entreprise de coaching, libérant ainsi de précieuses heures de service client. Le chatbot répond instantanément aux questions fréquemment posées dans le ton et le style de votre marque. Pendant que vous vous concentrez sur la formation, notre système répond aux questions sur les horaires, les prix et les services 24h/24 et 7j/7, convertissant les visiteurs en clients. Implémentation du chatbot en 5 jours.dd"
+			}
+		},
+		"services": {
+			"span": {
+				"2_places": "2 places disponibles",
+				"3_places": "3 places disponibles"
+			}
+		},
+		"service": {
+			"title": {
+				"unique_project": "Projet Unique",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"subtitle": {
+				"landingpage": "Page de destination ou site Web",
+				"assistance": "Assistance automatisée 24h/24h",
+				"visibility": "Visibilité sur les moteurs de recherche"
+			},
+			"benefits": {
+				"website": {
+					"more_pages": "Plus de 5 pages: + €500 par page",
+					"delivery": "Livraison en 5 jours",
+					"profesional": "Professionnel",
+					"responsive": "Adaptable",
+					"code": "Développement de code Web",
+					"webflow_development": "Développement Webflow",
+					"personalize": "Personnalisé",
+					"satisfaction": "Satisfaction garantie"
+				},
+				"chatbot": {
+					"attention": "Attention 24/7 sans personnel supplémentaire",
+					"less_cost": "40 % de réduction des coûts de service",
+					"responses": "Réponses instantanées",
+					"filter": "Filtrage efficace des leads",
+					"integration": "Intégration des médias sociaux",
+					"personalize": "Personnalisation de la marque",
+					"escale": "Évolutivité illimitée",
+					"analyse": "Analyse des questions fréquentes"
+				},
+				"seo": {
+					"traffic": "Plus de trafic organique",
+					"conversions": "De meilleures conversions",
+					"competition": "Surpassez vos concurrents",
+					"positioning": "Positionnement local",
+					"keywords": "Mots clés rentables",
+					"content": "Contenu optimisé",
+					"report": "Rapports mensuels",
+					"roi": "Retour sur investissement mesurable"
+				}
+			},
+			"price": {
+				"website": "€2.499",
+				"chatbot": "€549",
+				"seo": "€349"
+			},
+			"seo": {
+				"title": "SEO",
+				"subtitle": "Optimisation des moteurs de recherche",
+				"price": "From €300"
 			}
 		},
 		"footer": {
@@ -509,7 +664,7 @@
 			"title": "Nous sommes là pour vous aider",
 			"subtitle": "Le service client est notre priorité absolue. Nous sommes là pour répondre à toutes vos questions.",
 			"form": {
-				"name": "Nom",
+				"name": "Nom complet",
 				"mail": "Email",
 				"message": "Message"
 			}
@@ -565,23 +720,72 @@
 			"faq": "Veelgestelde vragen",
 			"contact": "Contact"
 		},
-		"cards_title": {
-			"project": "Uniek project",
-			"to_do": "Te doen",
-			"proces": "Ontwikkelingsproces"
+		"cards": {
+			"title": {
+				"project": "Uniek Project",
+				"to_do": "Te Doen",
+				"proces": "Ontwikkelingsproces"
+			},
+			"text": {
+				"website": "Landingspagina of Website",
+				"done": "6 Voltooid",
+				"complete_forum": "Vul het formulier in",
+				"tell_us_about_your_enterprise": "Vertel ons meer over uw bedrijf",
+				"planificacion_and_design": "Planning en Ontwerp",
+				"creation_wireframes": "Creatie van wireframes en visueel ontwerp met Figma",
+				"frontend": "Frontend Ontwikkeling",
+				"implementation": "Implementatie in HTML, CSS en JavaScript met WebFlow. Creatie van chatbot",
+				"launch": "Lancering",
+				"pub_chatbot_seo_googlemaps": "Publicatie van chatbot, SEO en Google Maps-optimalisatie"
+			},
+			"benefits": {
+				"more_pages": "Meer dan 5 pagina’s: + €500 per pagina",
+				"5_days": "Levering in 5 dagen",
+				"profesional": "Professioneel",
+				"responsive": "Responsief",
+				"code": "Webcode ontwikkeling",
+				"satisfaction": "Tevredenheid gegarandeerd"
+			},
+			"tag": {
+				"website": "Website",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"number": {
+				"choose_the_plan": "<strong>1.</strong> Kies het plan",
+				"send_application": "<strong>2.</strong> Stuur ons uw aanvraag",
+				"receive_project": "<strong>3.</strong> Ontvang uw project"
+			},
+			"textnumber": {
+				"plan_that_fits_you": "Kies het plan dat het beste bij uw behoeften en budget past",
+				"send_details": "Stuur ons de details van uw project en we nemen snel contact met u op",
+				"receive_your_project": "Ontvang uw project op de afgesproken tijd en geniet van uw service"
+			}
 		},
-		"cards_text": {
-			"website": "Landingspagina of website",
-			"complete_forum": "Vul het formulier in",
-			"tell_us_about_your_enterprise": "Vertel ons meer over jouw bedrijf",
-			"planificacion_and_design": "Planning en ontwerp",
-			"creation_wireframes": "Wireframes en visueel ontwerp maken met Figma",
-			"frontend": "Frontend ontwikkeling",
-			"implentation": "Ontwerp implementeren in HTML, CSS en JavaScript met WebFlow. Chatbot creëren",
-			"launch": "Lancering",
-			"pub_chatbot_seo_googlemaps": "Publicatie van chatbot, SEO en Google Maps optimalisatie",
-			"receive_project": "<strong>3.</strong> Ontvang jouw project",
-			"receive_your_project": "Ontvang jouw project op tijd en geniet van jouw service"
+		"placeholder": {
+			"title_of_assignment": "Taaktitel",
+			"description_needed": "Geef een voldoende beschrijving van het project.",
+			"introduce_your_name": "Vul uw naam in",
+			"introduce_your_mail": "Voer uw e-mailadres in",
+			"introduce_your_message": "Voer uw bericht in"
+		},
+		"features": {
+			"subtitle": {
+				"profesional": "Professioneel",
+				"responsive": "Responsive",
+				"personalize": "Aanpasbaar",
+				"optimized": "Geoptimaliseerd",
+				"without_prices": "Geen onduidelijke prijzen",
+				"super_fast": "Extreem snel"
+			},
+			"text": {
+				"help_business": "Wij helpen sportscholen en personal coaches hun online aanwezigheid te vergroten",
+				"enjoy_experience": "Geniet van een naadloze gebruikerservaring op elk apparaat",
+				"personalize_your_website": "Personaliseer uw website met unieke kleuren, lettertypen en stijlen",
+				"optimized_seo": "SEO en Google Maps geoptimaliseerd voor betere zichtbaarheid",
+				"clear_prices": "Duidelijke prijsstelling. Geen vage schattingen of overbetalingen..",
+				"dont_wait": "Geen wachttijden: na uw aanvraag gaan wij direct aan de slag."
+			}
 		},
 		"faq": {
 			"question": {
@@ -596,6 +800,80 @@
 				"in_which_programs_the_services": "Welke programma’s gebruiken jullie voor de diensten?",
 				"seo": "Hoe werkt SEO?",
 				"chatbot": "Hoe werken chatbots?"
+			},
+			"answer": {
+				"what_services_do_we_offer": "Wij zijn gespecialiseerd in webdesign, webontwikkeling, geïntegreerde automatische ondersteuning op sociale netwerken en websites, SEO-optimalisatie en een hoge ranking in Google Maps.",
+				"how_quickly_will_i_receive_my_services": "Gemiddeld worden de meeste aanvragen binnen vijf dagen of minder afgehandeld. Complexere verzoeken kunnen echter langer duren.",
+				"why_unix_studio_and_not_other_agencies": "Bij Unix Studio combineren we strategisch ontwerp en technische ontwikkeling om websites te creëren die er niet alleen fantastisch uitzien, maar ook meetbare resultaten voor uw bedrijf opleveren. Onze toewijding aan transparantie en ondersteuning na de lancering garandeert een veilige investering en een langdurige relatie dankzij SEO en geautomatiseerde assistentie.",
+				"how_unix_studio_works": "1. Selecteer het abonnement dat het beste bij uw behoeften past<br />2. Betaal met Stripe <br />3. U ontvangt een Google-formulier met vragen over uw bedrijf <br />4. Wij nemen contact met u op <br />5. Wij sturen u een contract dat u moet ondertekenen, zodat u geen problemen krijgt met betalingen en deadlines<br />6. Ontvang uw service!",
+				"hosting_and_domain": "Ja, wij bieden uitgebreide hostingoplossingen en hulp bij domeinregistratie om het opzetten van uw online aanwezigheid te vereenvoudigen.",
+				"you_can_redesign_an_existing_website": "Natuurlijk! Wij kunnen uw huidige website vernieuwen om de functionaliteit, het ontwerp en de gebruikerservaring te verbeteren.",
+				"dont_like_service": "Maak je geen zorgen! Wij blijven de service beoordelen totdat u 100% tevreden bent.",
+				"refund": "Vanwege de hoge kwaliteit van het werk worden er geen restituties verleend.",
+				"in_which_programs_the_services": "Wij ontwerpen professionele websites met Figma en implementeren deze in Webflow of via maatwerkontwikkeling. Onze chatbots combineren de visuele kracht van Voiceflow met de flexibiliteit van Python voor geavanceerde integraties. Verbeter SEO met gespecialiseerde Chrome-tools en optimaliseer uw lokale aanwezigheid met GoHighLevel om Google Maps te domineren.",
+				"seo": "Wij analyseren uw website met geavanceerde Chrome-tools om de optimalisatie ervan te verifiëren. Wij integreren Google Analytics en Hotjar om het verkeer en gebruikersgedrag te meten. Zodra uw site 100% geoptimaliseerd is voor zoekmachines, gebruiken we GoHighLevel om uw positie op Google Maps te verbeteren door middel van strategisch reviewmanagement. SEO kan 1 tot 3 maanden duren.",
+				"chatbot": "Wij automatiseren de communicatie van uw sportschool of coachingbedrijf, waardoor u waardevolle uren aan klantenservice kunt besteden. De chatbot beantwoordt direct veelgestelde vragen in de toon en stijl van uw merk. Terwijl u zich op de training concentreert, beantwoordt ons systeem 24/7 vragen over schema's, prijzen en diensten, waardoor bezoekers worden omgezet in klanten. Chatbot-implementatie in 5 dagen."
+			}
+		},
+		"services": {
+			"span": {
+				"2_places": "2 spots available",
+				"3_places": "3 spots available"
+			}
+		},
+		"service": {
+			"title": {
+				"unique_project": "Unique Project",
+				"chatbot": "Chatbot",
+				"seo": "SEO"
+			},
+			"subtitle": {
+				"landingpage": "Landing Page or Website",
+				"subtitle": "Landing Page or Website",
+				"assistance": "24/7 Automated Assistance",
+				"visibility": "Guaranteed Search Engine Visibility"
+			},
+			"benefits": {
+				"website": {
+					"more_pages": "More than 5 pages: + €500 per pagina",
+					"delivery": "Delivery in 5 days",
+					"profesional": "Professional",
+					"responsive": "Responsive",
+					"code": "Web Code Development",
+					"webflow_development": "Webflow Development",
+					"personalize": "Customized",
+					"satisfaction": "Guaranteed Satisfaction"
+				},
+				"chatbot": {
+					"attention": "24/7 attention without extra staff",
+					"less_cost": "40% lower service costs",
+					"responses": "Instant responses",
+					"filter": "Effective lead filtering",
+					"integration": "Social media integration",
+					"personalize": "Brand customization",
+					"escale": "Unlimited scalability",
+					"analyse": "Frequent question analysis"
+				},
+				"seo": {
+					"traffic": "More organic traffic",
+					"conversions": "Better conversions",
+					"competition": "Outperform your competition",
+					"positioning": "Local positioning",
+					"keywords": "Profitable keywords",
+					"content": "Optimized content",
+					"report": "Monthly reports",
+					"roi": "Measurable ROI"
+				}
+			},
+			"price": {
+				"website": "€2,499",
+				"chatbot": "€549",
+				"seo": "€349"
+			},
+			"seo": {
+				"title": "SEO",
+				"subtitle": "Search Engine Optimization",
+				"price": "From €300"
 			}
 		},
 		"footer": {
