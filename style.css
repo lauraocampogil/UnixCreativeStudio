@@ -52,6 +52,19 @@ section {
 	height: 60px;
 	width: auto;
 }
+/* For SEO optimization */
+img {
+	max-width: 100%;
+	height: auto;
+	aspect-ratio: attr(width) / attr(height);
+}
+
+/* Prevent layout shifts during loading */
+.item img {
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+}
 
 .nav-links {
 	display: flex;
