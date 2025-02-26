@@ -38,14 +38,16 @@
 		},
 		"button": {
 			"hero_service": "Ver Servicios",
-			"start": "Empezar"
+			"start": "Empezar",
+			"send_message": "Envía tu mensaje"
 		},
 		"about_page": {
 			"how_it_works": "Como funciona",
 			"features": "Porque nosotros",
 			"services": "Servicios",
 			"works": "Trabajos de clientes",
-			"faq": "Preguntas Frecuentes"
+			"faq": "Preguntas Frecuentes",
+			"contact": "Contacto"
 		},
 		"cards_title": {
 			"project": "Proyecto Unico",
@@ -86,7 +88,10 @@
 			"send_details": "Envíanos los detalles de tu proyecto y te contactaremos en breve"
 		},
 		"placeholder": {
-			"title_of_assignment": "Titulo de la tarea"
+			"title_of_assignment": "Titulo de la tarea",
+			"introduce_your_name": "Introduce tu nombre",
+			"introduce_your_mail": "Ingresa tu correo electronico",
+			"introduce_your_message": "Introduce tu mensaje"
 		},
 		"features": {
 			"subtitle": {
@@ -164,8 +169,7 @@
 			"seo": {
 				"title": "SEO",
 				"subtitle": "Optimización para motores de búsqueda",
-				"price": "Desde 300€",
-				"button": "Ver más"
+				"price": "Desde 300€"
 			}
 		},
 		"faq": {
@@ -202,6 +206,15 @@
 			"privacy_policy": "Política de Privacidad",
 			"copy": "©unix.creative.studio <br />Reservados todos los derechos.",
 			"made_in_belgium": "Hecho en Bélgica"
+		},
+		"contact": {
+			"title": "Estamos aquí para apoyarte",
+			"subtitle": "La atención al cliente es nuestra máxima prioridad. Estamos aquí para responder a todas tus preguntas.",
+			"form": {
+				"name": "Nombre",
+				"mail": "Email",
+				"message": "Mensaje"
+			}
 		}
 	},
 

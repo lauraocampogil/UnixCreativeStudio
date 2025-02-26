@@ -81,19 +81,19 @@
 					<div class="language-dropdown">
 						<a href="#" data-lang="es" class="lang-option active">
 							<span class="lang-flag">🇪🇸</span>
-							<span class="lang-name">Español</span>
+							<span class="lang-name" data-i18n="language.es">Español</span>
 						</a>
 						<a href="#" data-lang="en" class="lang-option">
 							<span class="lang-flag">🇺🇸</span>
-							<span class="lang-name">English</span>
+							<span class="lang-name" data-i18n="language.en">English</span>
 						</a>
 						<a href="#" data-lang="fr" class="lang-option">
 							<span class="lang-flag">🇫🇷</span>
-							<span class="lang-name">Français</span>
+							<span class="lang-name" data-i18n="language.fr">Français</span>
 						</a>
 						<a href="#" data-lang="nl" class="lang-option">
 							<span class="lang-flag">🇳🇱</span>
-							<span class="lang-name">Nederlands</span>
+							<span class="lang-name" data-i18n="language.nl">Nederlands</span>
 						</a>
 					</div>
 				</div>
@@ -121,19 +121,19 @@
 					<div class="mobile-language-dropdown">
 						<a href="#" data-lang="es" class="lang-option active">
 							<span class="lang-flag">🇪🇸</span>
-							<span class="lang-name">Español</span>
+							<span class="lang-name" data-i18n="language_mobile.es">Español</span>
 						</a>
 						<a href="#" data-lang="en" class="lang-option">
 							<span class="lang-flag">🇺🇸</span>
-							<span class="lang-name">English</span>
+							<span class="lang-name" data-i18n="language_mobile.en">English</span>
 						</a>
 						<a href="#" data-lang="fr" class="lang-option">
 							<span class="lang-flag">🇫🇷</span>
-							<span class="lang-name">Français</span>
+							<span class="lang-name" data-i18n="language_mobile.fr">Français</span>
 						</a>
 						<a href="#" data-lang="nl" class="lang-option">
 							<span class="lang-flag">🇳🇱</span>
-							<span class="lang-name">Nederlands</span>
+							<span class="lang-name" data-i18n="language_mobile.nl">Nederlands</span>
 						</a>
 					</div>
 				</div>
@@ -143,69 +143,69 @@
 		<div class="contact-container" id="contact">
 			<div class="contact-label">
 				<i class="fas fa-phone"></i>
-				Contacto
+				<span data-i18n="about_page.contact"></span>
 			</div>
 
-			<h1>Estamos aquí para apoyarte</h1>
-			<p>La atención al cliente es nuestra máxima prioridad. Estamos aquí para responder a todas tus preguntas.</p>
+			<h1 data-i18n="contact.title">Estamos aquí para apoyarte</h1>
+			<p data-i18n="contact.subtitle">La atención al cliente es nuestra máxima prioridad. Estamos aquí para responder a todas tus preguntas.</p>
 
 			<form class="contact-form" action="https://formspree.io/f/mnnjjzdy" method="POST">
 				<div class="form-row">
 					<div class="form-group">
-						<label>Nombre</label>
-						<input type="text" name="nombre" placeholder="Introduce tu nombre" required />
+						<label data-i18n="contact.form.name">Nombre</label>
+						<input type="text" name="nombre" data-i18n="placeholder.introduce_your_name" placeholder="Introduce tu nombre" required />
 					</div>
 					<div class="form-group">
-						<label>Email</label>
-						<input type="email" name="email" placeholder="Ingresa tu correo electronico" required />
+						<label data-i18n="contact.form.mail">Email</label>
+						<input type="email" name="email" data-i18n="placeholder.introduce_your_mail" placeholder="Ingresa tu correo electronico" required />
 					</div>
 				</div>
 				<div class="form-group">
-					<label>Mensaje</label>
-					<textarea name="mensaje" placeholder="Introduce tu mensaje" required></textarea>
+					<label data-i18n="contact.form.message">Mensaje</label>
+					<textarea name="mensaje" data-i18n="placeholder.introduce_your_message" placeholder="Introduce tu mensaje" required></textarea>
 				</div>
-				<button type="submit">Envía tu mensaje</button>
+				<button type="submit" data-i18n="button.send_message">Envía tu mensaje</button>
 			</form>
 		</div>
 		<div class="faq-container" id="faq">
 			<div class="circle">
 				<i class="fas fa-question-circle"></i>
-				Preguntas Frequentes
+				<span data-i18n="about_page.faq"></span>
 			</div>
-			<h2>Respondemos a tus preguntas</h2>
+			<h2 data-i18n="title_page.faq">Respondemos a tus preguntas</h2>
 		</div>
 		<div class="faqs">
 			<div class="faq">
 				<div class="question">
-					<h3>¿Qué servicios ofrecemos?</h3>
+					<h3 data-i18n="faq.question.what_services_do_we_offer">¿Qué servicios ofrecemos?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>Nos especializamos en diseño web, desarrollo web, asistencia automatica integrada en redes sociales y sitio web, optimización SEO y Google Maps de alto ranking.</p>
+					<p data-i18n="faq.answer.what_services_do_we_offer">Nos especializamos en diseño web, desarrollo web, asistencia automatica integrada en redes sociales y sitio web, optimización SEO y Google Maps de alto ranking.</p>
 				</div>
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Qué tan rápido recibiré mis servicios?</h3>
+					<h3 data-i18n="faq.question.how_quickly_will_i_receive_my_services">¿Qué tan rápido recibiré mis servicios?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
 					</svg>
 				</div>
 				<div class="answer">
-					<p>En promedio, la mayoría de las solicitudes se completan en solo cinco días o menos. Sin embargo, las solicitudes más complejas pueden demorar más.</p>
+					<p data-i18n="faq.answer.how_quickly_will_i_receive_my_services">En promedio, la mayoría de las solicitudes se completan en solo cinco días o menos. Sin embargo, las solicitudes más complejas pueden demorar más.</p>
 				</div>
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Porque Unix Studio y no otras agencias?</h3>
+					<h3 data-i18n="faq.question.why_unix_studio_and_not_other_agencies">¿Porque Unix Studio y no otras agencias?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>
+					<p data-i18n="faq.answer.why_unix_studio_and_not_other_agencies">
 						En Unix Studio fusionamos diseño estratégico y desarrollo técnico para crear sitios web que no solo se ven extraordinarios sino que generan resultados medibles para tu negocio. Nuestro compromiso con la transparencia y el soporte
 						post-lanzamiento garantiza una inversión segura y una relación duradera gracias al SEO y la asistencia automatica.
 					</p>
@@ -213,13 +213,13 @@
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Como funciona Unix Studio?</h3>
+					<h3 data-i18n="faq.question.how_unix_studio_works">¿Como funciona Unix Studio?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>
+					<p data-i18n="faq.answer.how_unix_studio_works">
 						1. Selecciona el plan acorde a tus necesidades<br />
 						2. Paga con Stripe <br />
 						3. Recibiras un google form con preguntas sobre tu negocio <br />
@@ -231,57 +231,57 @@
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Ofrecen servicios de hosting y registro de dominios?</h3>
+					<h3 data-i18n="faq.question.hosting_and_domain">¿Ofrecen servicios de hosting y registro de dominios?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>Sí, ofrecemos soluciones de alojamiento integrales y ayudamos con el registro de dominios para simplificar la configuración de su presencia en línea.</p>
+					<p data-i18n="faq.answer.hosting_and_domain">Sí, ofrecemos soluciones de alojamiento integrales y ayudamos con el registro de dominios para simplificar la configuración de su presencia en línea.</p>
 				</div>
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Puedes rediseñar un sitio web existente?</h3>
+					<h3 data-i18n="faq.question.you_can_redesign_an_existing_website">¿Puedes rediseñar un sitio web existente?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>¡Por supuesto! Podemos renovar su sitio web actual para mejorar su funcionalidad, diseño y experiencia de usuario.</p>
+					<p data-i18n="faq.answer.you_can_redesign_an_existing_website">¡Por supuesto! Podemos renovar su sitio web actual para mejorar su funcionalidad, diseño y experiencia de usuario.</p>
 				</div>
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Qué pasa si no me gusta el servicio?</h3>
+					<h3 data-i18n="faq.question.dont_like_service">¿Qué pasa si no me gusta el servicio?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>¡No te preocupes! Seguiremos revisando el servicio hasta que estés 100% satisfecho.</p>
+					<p data-i18n="faq.answer.dont_like_service">¡No te preocupes! Seguiremos revisando el servicio hasta que estés 100% satisfecho.</p>
 				</div>
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Hay algún reembolso si no me gusta el servicio?</h3>
+					<h3 data-i18n="faq.question.refund">¿Hay algún reembolso si no me gusta el servicio?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>Debido a la alta calidad del trabajo, no se emitirán reembolsos.</p>
+					<p data-i18n="faq.answer.refund">Debido a la alta calidad del trabajo, no se emitirán reembolsos.</p>
 				</div>
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿En qué programas los servicios?</h3>
+					<h3 data-i18n="faq.question.in_which_programs_the_services">¿En qué programas los servicios?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>
+					<p data-i18n="faq.answer.in_which_programs_the_services">
 						Diseñamos sitios web profesionales con Figma y los implementamos en Webflow o mediante desarrollo personalizado. Nuestros chatbots combinan la potencia visual de Voiceflow con la flexibilidad de Python para integraciones avanzadas. El SEO
 						se potencia con herramientas especializadas de Chrome y optimizamos tu presencia local mediante GoHighLevel para dominar Google Maps.
 					</p>
@@ -289,13 +289,13 @@
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Como funciona SEO?</h3>
+					<h3 data-i18n="faq.question.seo">¿Como funciona SEO?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>
+					<p data-i18n="faq.answer.seo">
 						Analizamos tu web con herramientas avanzadas de Chrome para verificar su optimización. Integramos Google Analytics y Hotjar para medir tráfico y comportamiento de usuarios. Una vez optimizado tu sitio al 100% para buscadores, utilizamos
 						GoHighLevel para potenciar tu posicionamiento en Google Maps mediante gestión estratégica de reseñas. SEO puede tardar entre 1 a 3 meses.
 					</p>
@@ -303,13 +303,13 @@
 			</div>
 			<div class="faq">
 				<div class="question">
-					<h3>¿Como funciona los chatbots?</h3>
+					<h3 data-i18n="faq.question.chatbot">¿Como funciona los chatbots?</h3>
 					<svg width="15" height="10" viewBox="0 0 42 25">
 						<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"></path>
 					</svg>
 				</div>
 				<div class="answer">
-					<p>
+					<p data-i18n="faq.answer.chatbot">
 						Automatizamos la comunicación de tu gimnasio o negocio de coaching, liberando horas valiosas de atención al cliente. El chatbot responde instantáneamente a las preguntas frecuentes con el tono y estilo propio de tu marca. Mientras tú te
 						enfocas en entrenar, nuestro sistema atiende consultas sobre horarios, precios y servicios 24/7, convirtiendo visitas en clientes. Implementación del chatbot en 5 dias.
 					</p>
@@ -317,17 +317,20 @@
 			</div>
 		</div>
 		<footer class="footer-container">
-			<h2>UNIX CREATIVE STUDIO</h2>
+			<h2 data-i18n="footer.name_brand">UNIX CREATIVE STUDIO</h2>
 			<nav class="footer-nav">
-				<a href="https://marmalade-hearing-794.notion.site/T-rminos-y-condiciones-1878ebfbb5708028a335fdc594e5ebde" target="_blank">Condiciones de Servicio</a>
-				<a href="https://marmalade-hearing-794.notion.site/Pol-tica-de-Privacidad-Unix-Creative-Studio-1878ebfbb570808c9344e9bd82325286" target="_blank">Política de Privacidad</a>
+				<a href="https://marmalade-hearing-794.notion.site/T-rminos-y-condiciones-1878ebfbb5708028a335fdc594e5ebde" target="_blank" data-i18n="footer.terms_of_service">Condiciones de Servicio</a>
+				<a href="https://marmalade-hearing-794.notion.site/Pol-tica-de-Privacidad-Unix-Creative-Studio-1878ebfbb570808c9344e9bd82325286" target="_blank" data-i18n="footer.privacy_policy">Política de Privacidad</a>
 			</nav>
 			<div class="social-links">
 				<a href="https://www.facebook.com/unix.creative.studio/"><i class="fab fa-facebook"></i></a>
 				<a href="https://www.instagram.com/unix_studio_/"><i class="fab fa-instagram"></i></a>
 			</div>
-			<p>©unix.creative.studio Reservados todos los derechos.</p>
-			<p>Made in Belgium</p>
+			<p data-i18n="footer.copy">
+				©unix.creative.studio <br />
+				Reservados todos los derechos.
+			</p>
+			<p data-i18n="footer.made_in_belgium">Hecho en Belgica</p>
 		</footer>
 		<script src="main.js"></script>
 		<!-- schema.org markup for the contact page -->
