@@ -347,9 +347,10 @@ img {
 	gap: 0.5rem;
 }
 
+/*
 .arrow {
 	transition: transform 0.3s ease;
-}
+}*/
 
 .works-link:hover .arrow {
 	transform: translateX(5px);
