@@ -350,11 +350,11 @@ img {
 /*
 .arrow {
 	transition: transform 0.3s ease;
-}*/
+}
 
 .works-link:hover .arrow {
 	transform: translateX(5px);
-}
+}*/
 
 /* Desktop contact button */
 .get-in-touch-desktop {
