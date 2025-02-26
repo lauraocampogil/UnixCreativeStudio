@@ -84,7 +84,7 @@ function setLanguage(language) {
 			if (element.tagName.toLowerCase() === "option") {
 				element.text = translation;
 			} else {
-				element.textContent = translation;
+				element.innerHTML = translation;
 			}
 		}
 	});
