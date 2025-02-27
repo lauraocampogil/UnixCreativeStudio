@@ -131,7 +131,7 @@
 			"subtitle": {
 				"landingpage": "Página de destino o sitio web",
 				"assistance": "Asistencia automática 24/7",
-				"visibility": "Visibilidad garantizada en buscadores"
+				"visibility": "Alta visibilidad en buscadores"
 			},
 			"benefits": {
 				"website": {
@@ -606,7 +606,7 @@
 			"subtitle": {
 				"landingpage": "Page de destination ou site Web",
 				"assistance": "Assistance automatisée 24h/24h",
-				"visibility": "Visibilité sur les moteurs de recherche"
+				"visibility": "Visibilité en ligne"
 			},
 			"benefits": {
 				"website": {
@@ -620,7 +620,7 @@
 					"satisfaction": "Satisfaction garantie"
 				},
 				"chatbot": {
-					"attention": "Attention 24/7 sans personnel supplémentaire",
+					"attention": "Attention 24/7",
 					"less_cost": "40 % de réduction des coûts de service",
 					"responses": "Réponses instantanées",
 					"filter": "Filtrage efficace des leads",
@@ -821,14 +821,14 @@
 		},
 		"service": {
 			"title": {
-				"unique_project": "Unique Project",
+				"unique_project": "Uniek project",
 				"chatbot": "Chatbot",
 				"seo": "SEO"
 			},
 			"subtitle": {
-				"landingpage": "Landing Page or Website",
-				"assistance": "24/7 Automated Assistance",
-				"visibility": "Guaranteed Search Engine Visibility"
+				"landingpage": "Landingspagina of website",
+				"assistance": "24/7 geautomatiseerde assistentie",
+				"visibility": "Zichtbaarheid in zoekmachines"
 			},
 			"benefits": {
 				"website": {
