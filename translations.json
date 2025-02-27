@@ -68,7 +68,7 @@
 				"pub_chatbot_seo_googlemaps": "Publicación de chatbot, SEO y Google Maps optimizacion"
 			},
 			"benefits": {
-				"more_pages": "Mas 5 páginas: + €500 por cada pagina",
+				"more_pages": "Paginas ilimitadas",
 				"5_days": "Entrega en 5 días",
 				"profesional": "Profesional",
 				"responsive": "Responsivo",
@@ -135,7 +135,7 @@
 			},
 			"benefits": {
 				"website": {
-					"more_pages": "Más de 5 páginas: + €500 por cada pagina",
+					"more_pages": "Paginas ilimitadas",
 					"delivery": "Entrega en 5 días",
 					"profesional": "Profesional",
 					"responsive": "Responsivo",
@@ -291,7 +291,7 @@
 				"pub_chatbot_seo_googlemaps": "Publishing chatbot, SEO, and Google Maps optimization"
 			},
 			"benefits": {
-				"more_pages": "More than 5 pages : + $500 for each page",
+				"more_pages": "Unlimited pages",
 				"5_days": "Delivery in 5 days",
 				"profesional": "Professional",
 				"responsive": "Responsive",
@@ -359,7 +359,7 @@
 			},
 			"benefits": {
 				"website": {
-					"more_pages": "More than 5 pages: + $500 for each page",
+					"more_pages": "Unlimited pages",
 					"delivery": "Delivery in 5 days",
 					"profesional": "Professional",
 					"responsive": "Responsive",
@@ -515,7 +515,7 @@
 				"pub_chatbot_seo_googlemaps": "Publication du chatbot, SEO et optimisation Google Maps"
 			},
 			"benefits": {
-				"more_pages": "Plus de 5 pages: + €500 par page",
+				"more_pages": "Pages illimitées",
 				"5_days": "Livraison en 5 jours",
 				"profesional": "Professionnel",
 				"responsive": "Responsif",
@@ -610,7 +610,7 @@
 			},
 			"benefits": {
 				"website": {
-					"more_pages": "Plus de 5 pages: + €500 par page",
+					"more_pages": "Pages illimitées",
 					"delivery": "Livraison en 5 jours",
 					"profesional": "Professionnel",
 					"responsive": "Adaptable",
@@ -737,7 +737,7 @@
 				"pub_chatbot_seo_googlemaps": "Publicatie van chatbot, SEO en Google Maps-optimalisatie"
 			},
 			"benefits": {
-				"more_pages": "Meer dan 5 pagina’s: + €500 per pagina",
+				"more_pages": "Onbeperkt aantal pagina's",
 				"5_days": "Levering in 5 dagen",
 				"profesional": "Professioneel",
 				"responsive": "Responsief",
@@ -832,34 +832,34 @@
 			},
 			"benefits": {
 				"website": {
-					"more_pages": "More than 5 pages: + €500 per pagina",
-					"delivery": "Delivery in 5 days",
-					"profesional": "Professional",
+					"more_pages": "Onbeperkt aantal pagina's",
+					"delivery": "Levering binnen 5 dagen",
+					"profesional": "Professioneel",
 					"responsive": "Responsive",
 					"code": "Web Code Development",
 					"webflow_development": "Webflow Development",
-					"personalize": "Customized",
-					"satisfaction": "Guaranteed Satisfaction"
+					"personalize": "Op maat gemaakt",
+					"satisfaction": "Gegarandeerde tevredenheid"
 				},
 				"chatbot": {
-					"attention": "24/7 attention without extra staff",
-					"less_cost": "40% lower service costs",
-					"responses": "Instant responses",
-					"filter": "Effective lead filtering",
-					"integration": "Social media integration",
-					"personalize": "Brand customization",
-					"escale": "Unlimited scalability",
-					"analyse": "Frequent question analysis"
+					"attention": "24/7 aandacht zonder extra personeel",
+					"less_cost": "40% lagere servicekosten",
+					"responses": "Directe reacties",
+					"filter": "Effectieve leadfiltering",
+					"integration": "Integratie van sociale media",
+					"personalize": "Merkpersonalisatie",
+					"escale": "Onbeperkte schaalbaarheid",
+					"analyse": "Veelgestelde vragen analyse"
 				},
 				"seo": {
-					"traffic": "More organic traffic",
-					"conversions": "Better conversions",
-					"competition": "Outperform your competition",
-					"positioning": "Local positioning",
-					"keywords": "Profitable keywords",
-					"content": "Optimized content",
-					"report": "Monthly reports",
-					"roi": "Measurable ROI"
+					"traffic": "Meer organisch verkeer",
+					"conversions": "Betere conversies",
+					"competition": "Overtref uw concurrenten",
+					"positioning": "Lokale positionering",
+					"keywords": "Winstgevend keywords",
+					"content": "Geoptimaliseerde inhoud",
+					"report": "Maandelijkse rapporten",
+					"roi": "Meetbare ROI"
 				}
 			},
 			"price": {
