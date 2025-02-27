@@ -61,11 +61,11 @@
 				"complete_forum": "Completa el formulario",
 				"tell_us_about_your_enterprise": "Cuéntanos más sobre tu negocio",
 				"planificacion_and_design": "Planificación y Diseño",
-				"creation_wireframes": "Creación de wireframes y diseño visual con Figma",
+				"creation_wireframes": "Wireframes y diseño visual con Figma",
 				"frontend": "Desarrollo Frontend",
-				"implementation": "Implementación en HTML, CSS y JavaScript con WebFlow. Creacion de chatbot",
+				"implementation": "HTML, CSS y JavaScript con WebFlow",
 				"launch": "Lanzamiento",
-				"pub_chatbot_seo_googlemaps": "Publicación de chatbot, SEO y Google Maps optimizacion"
+				"pub_chatbot_seo_googlemaps": "Publicación de chatbot, SEO y Google Maps"
 			},
 			"benefits": {
 				"more_pages": "Paginas ilimitadas",
@@ -284,11 +284,11 @@
 				"complete_forum": "Complete the form",
 				"tell_us_about_your_enterprise": "Tell us more about your business",
 				"planificacion_and_design": "Planning and Design",
-				"creation_wireframes": "Creation of wireframes and visual design with Figma",
+				"creation_wireframes": "Wireframes and visual design with Figma",
 				"frontend": "Frontend Development",
-				"implementation": "Implementation in HTML, CSS, and JavaScript with WebFlow. Creation of chatbot",
+				"implementation": "HTML, CSS, and JavaScript with WebFlow.",
 				"launch": "Launch",
-				"pub_chatbot_seo_googlemaps": "Publishing chatbot, SEO, and Google Maps optimization"
+				"pub_chatbot_seo_googlemaps": "Publishing chatbot, SEO, and Google Maps"
 			},
 			"benefits": {
 				"more_pages": "Unlimited pages",
@@ -508,11 +508,11 @@
 				"complete_forum": "Remplissez le formulaire",
 				"tell_us_about_your_enterprise": "Parlez-nous de votre entreprise",
 				"planificacion_and_design": "Planification et Conception",
-				"creation_wireframes": "Création de wireframes et conception visuelle avec Figma",
+				"creation_wireframes": "Wireframes et conception visuelle avec Figma",
 				"frontend": "Développement Frontend",
-				"implementation": "Implémentation en HTML, CSS et JavaScript avec WebFlow. Création d'un chatbot",
+				"implementation": "HTML, CSS et JavaScript avec WebFlow",
 				"launch": "Lancement",
-				"pub_chatbot_seo_googlemaps": "Publication du chatbot, SEO et optimisation Google Maps"
+				"pub_chatbot_seo_googlemaps": "Publication du chatbot, SEO et Google Maps"
 			},
 			"benefits": {
 				"more_pages": "Pages illimitées",
@@ -529,7 +529,7 @@
 			},
 			"number": {
 				"choose_the_plan": "<strong>1.</strong> Choisissez le plan",
-				"send_application": "<strong>2.</strong> Envoyez-nous votre demande",
+				"send_application": "<strong>2.</strong> Envoyez votre demande",
 				"receive_project": "<strong>3.</strong> Recevez votre projet"
 			},
 			"textnumber": {
@@ -730,11 +730,11 @@
 				"complete_forum": "Vul het formulier in",
 				"tell_us_about_your_enterprise": "Vertel ons meer over uw bedrijf",
 				"planificacion_and_design": "Planning en Ontwerp",
-				"creation_wireframes": "Creatie van wireframes en visueel ontwerp met Figma",
+				"creation_wireframes": "Wireframes en visueel ontwerp met Figma",
 				"frontend": "Frontend Ontwikkeling",
-				"implementation": "Implementatie in HTML, CSS en JavaScript met WebFlow. Creatie van chatbot",
+				"implementation": "HTML, CSS en JavaScript met WebFlow",
 				"launch": "Lancering",
-				"pub_chatbot_seo_googlemaps": "Publicatie van chatbot, SEO en Google Maps-optimalisatie"
+				"pub_chatbot_seo_googlemaps": "Publicatie van chatbot, SEO en Google Maps"
 			},
 			"benefits": {
 				"more_pages": "Onbeperkt aantal pagina's",
