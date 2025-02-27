@@ -347,15 +347,6 @@ img {
 	gap: 0.5rem;
 }
 
-/*
-.arrow {
-	transition: transform 0.3s ease;
-}
-
-.works-link:hover .arrow {
-	transform: translateX(5px);
-}*/
-
 /* Desktop contact button */
 .get-in-touch-desktop {
 	background: white;
@@ -962,9 +953,12 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 .question h3 {
 	font-size: 1.4rem;
+	flex: 1;
+	margin-right: 15px;
 }
 .answer {
 	max-height: 0;
@@ -979,6 +973,13 @@ img {
 .faq.active .answer {
 	max-height: 300px;
 	animation: fade 0.5s ease-in-out;
+}
+.question svg {
+	min-width: 15px;
+	width: 15px;
+	height: 10px;
+	flex-shrink: 0;
+	transition: transform 0.5s ease-in;
 }
 
 .faq.active svg {
