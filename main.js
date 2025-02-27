@@ -9,7 +9,6 @@ faqs.forEach((faq) => {
 // animation scroll
 const observer = new IntersectionObserver((entries) => {
 	entries.forEach((entry) => {
-		console.log(entry);
 		if (entry.isIntersecting) {
 			entry.target.classList.add("show");
 		} else {
@@ -119,8 +118,6 @@ function setLanguage(language) {
 			option.classList.remove("active");
 		}
 	});
-
-	console.log(`Language changed to: ${language}`);
 }
 
 // Modified changeLanguage function to integrate with translations

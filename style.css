@@ -38,10 +38,7 @@ section {
 	border-radius: 50px;
 	transition: opacity 0.3s ease;
 }
-.nav-container.hidden {
-	opacity: 0;
-	pointer-events: none;
-}
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -125,10 +122,6 @@ img {
 
 .current-lang {
 	font-weight: 500;
-}
-
-.globe-icon {
-	font-size: 1rem;
 }
 
 .language-dropdown {
@@ -374,19 +367,6 @@ img {
 	transform: translateY(-2px);
 }
 
-/* Mobile contact button */
-.get-in-touch-mobile {
-	display: none;
-	background: white;
-	color: black;
-	text-decoration: none;
-	padding: 1rem 2rem;
-	border-radius: 100px;
-	font-weight: 500;
-	transition: all 0.3s ease;
-	margin-top: 2rem;
-}
-
 /* Hero Section */
 .hero {
 	height: 100vh;
@@ -547,18 +527,6 @@ img {
 	text-align: left;
 }
 
-.grid-lines {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-	background-size: 30px 30px;
-	border-radius: 20px;
-	pointer-events: none;
-}
-
 .price {
 	font-size: 32px;
 	font-weight: 600;
@@ -623,13 +591,6 @@ img {
 	color: rgba(255, 255, 255, 0.8);
 }
 
-.meta {
-	display: flex;
-	gap: 12px;
-	color: rgba(255, 255, 255, 0.5);
-	font-size: 13px;
-	margin-top: 12px;
-}
 .btn {
 	width: 100%;
 	padding: 12px;
@@ -1133,11 +1094,6 @@ svg {
 	filter: blur(0);
 	transform: translateX(0);
 }
-@media (prefers-reduced-motion) {
-	.hidden {
-		transition: none;
-	}
-}
 
 .cards {
 	display: flex;
@@ -1219,16 +1175,6 @@ svg {
 	transform: translateY(-2px);
 }
 
-.footer-madeby {
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-	margin-top: 2rem;
-	padding: 0.5rem 1rem;
-	border-radius: 100px;
-	background: rgba(255, 255, 255, 0.05);
-	font-size: 0.8rem;
-}
 .works {
 	display: flex;
 	flex-direction: column;

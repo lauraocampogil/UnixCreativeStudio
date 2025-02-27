@@ -22,40 +22,16 @@
 		<title>Unix Creative Studio</title>
 		<link rel="icon" href="images/Unix_favicon.webp" type="image/x-icon" />
 		<link rel="preload" as="image" href="images/UNIX_TRANSPARENCY_WEB.webp" type="image/webp" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+		<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" media="print" onload="this.media='all'" />
+		<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /></noscript>
 		<link rel="stylesheet" href="style.css" />
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SV13B4J42P"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-
-			gtag("config", "G-SV13B4J42P");
-		</script>
-		<!-- Hotjar Tracking Code for https://unixcreativestudio.com/ -->
-		<script>
-			(function (h, o, t, j, a, r) {
-				h.hj =
-					h.hj ||
-					function () {
-						(h.hj.q = h.hj.q || []).push(arguments);
-					};
-				h._hjSettings = { hjid: 5312086, hjsv: 6 };
-				a = o.getElementsByTagName("head")[0];
-				r = o.createElement("script");
-				r.async = 1;
-				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-				a.appendChild(r);
-			})(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-		</script>
+		<link rel="preconnect" href="https://cdn.lordicon.com" />
 	</head>
 	<body>
 		<nav class="nav-container">
 			<div class="logo">
-				<a href="index.html"><img src="images/UNIX_TRANSPARENCY_WEB.webp" alt="Logo de Unix Creative Studio - Página Principal" /></a>
+				<a href="index.html"><img src="images/UNIX_TRANSPARENCY_WEB.webp" width="60" height="60" alt="Logo de Unix Creative Studio - Página Principal" /></a>
 			</div>
 			<div class="hamburger-menu">
 				<div class="bar"></div>
@@ -101,7 +77,7 @@
 
 		<div class="mobile-menu">
 			<div class="mobile-menu-header">
-				<a href="index.html"><img src="images/UNIX_TRANSPARENCY_WEB.webp" alt="Logo de Unix Creative Studio - Menú Móvil" /></a>
+				<a href="index.html"><img src="images/UNIX_TRANSPARENCY_WEB.webp" width="60" height="60" alt="Logo de Unix Creative Studio - Menú Móvil" /></a>
 				<div class="close-menu">✕</div>
 			</div>
 			<div class="mobile-menu-links">
@@ -331,7 +307,7 @@
 								<li data-i18n="service.benefits.website.personalize">Personalizado</li>
 								<li data-i18n="service.benefits.website.satisfaction">Satisfacción garantizada</li>
 							</ul>
-							<a href="https://buy.stripe.com/00gaHX8tld8D23KcMM" target="_blank" class="btn-service" data-i18n="button.start">Empezar</a>
+							<a href="https://buy.stripe.com/00gaHX8tld8D23KcMM" target="_blank" class="btn-service" data-i18n="button.start" aria-label="Empezar a crear mi sitio web profesional">Empezar</a>
 						</div>
 					</div>
 					<!-- Chatbot service -->
@@ -354,7 +330,7 @@
 								<li data-i18n="service.benefits.chatbot.escale">Escalabilidad ilimitada</li>
 								<li data-i18n="service.benefits.chatbot.analyse">Análisis de preguntas frecuentes</li>
 							</ul>
-							<a href="https://buy.stripe.com/eVadU97phb0vgYE148" target="_blank" class="btn-service" data-i18n="button.start">Empezar</a>
+							<a href="https://buy.stripe.com/eVadU97phb0vgYE148" target="_blank" class="btn-service" data-i18n="button.start" aria-label="Empezar a implementar un chatbot para mi negocio">Empezar</a>
 						</div>
 					</div>
 					<!-- SEO + GoogleMaps service -->
@@ -377,7 +353,7 @@
 								<li data-i18n="service.benefits.seo.report">Reportes mensuales</li>
 								<li data-i18n="service.benefits.seo.roi">ROI medible</li>
 							</ul>
-							<a href="https://buy.stripe.com/00g9DTaBt2tZ5fW7sv" target="_blank" class="btn-service" data-i18n="button.start">Empezar</a>
+							<a href="https://buy.stripe.com/00g9DTaBt2tZ5fW7sv" target="_blank" class="btn-service" data-i18n="button.start" aria-label="Empezar a mejorar mi SEO y posicionamiento">Empezar</a>
 						</div>
 					</div>
 				</div>
@@ -391,11 +367,11 @@
 			</div>
 			<div class="slider" style="--width: 300px; --height: 400px; --quantity: 5">
 				<div class="list">
-					<div class="item" style="--position: 1"><img src="images/slider1_gym.webp" alt="Diseño web para gimnasio Strong Fitness" /></div>
-					<div class="item" style="--position: 2"><img src="images/PowerFit.webp" alt="Diseño web para gimnasio PowerFit" /></div>
-					<div class="item" style="--position: 3"><img src="images/Lift.webp" alt="Diseño web para gimnasio Lift" /></div>
-					<div class="item" style="--position: 4"><img src="images/Chatbot-gym.webp" alt="Diseño web para gimnasio con un chatbot" /></div>
-					<div class="item" style="--position: 5"><img src="images/FlexGym.webp" alt="Diseño web para un gimnasio FlexGym" /></div>
+					<div class="item" style="--position: 1"><img src="images/slider1_gym.webp" loading="lazy" width="300" height="400" alt="Diseño web para gimnasio Strong Fitness" /></div>
+					<div class="item" style="--position: 2"><img src="images/PowerFit.webp" loading="lazy" width="300" height="400" alt="Diseño web para gimnasio PowerFit" /></div>
+					<div class="item" style="--position: 3"><img src="images/Lift.webp" loading="lazy" width="300" height="400" alt="Diseño web para gimnasio Lift" /></div>
+					<div class="item" style="--position: 4"><img src="images/Chatbot-gym.webp" loading="lazy" width="300" height="400" alt="Diseño web para gimnasio con un chatbot" /></div>
+					<div class="item" style="--position: 5"><img src="images/FlexGym.webp" loading="lazy" width="300" height="400" alt="Diseño web para un gimnasio FlexGym" /></div>
 				</div>
 			</div>
 		</div>
@@ -566,7 +542,7 @@
 			<p data-i18n="footer.made_in_belgium">Hecho en Belgica</p>
 		</footer>
 
-		<script src="main.js"></script>
+		<script src="main.js" defer></script>
 		<script src="https://cdn.lordicon.com/lordicon.js"></script>
 		<script type="application/ld+json">
 			{
@@ -575,6 +551,33 @@
 				"name": "Unix Creative Studio",
 				"logo": "https://unixcreativestudio.com/images/UNIX_TRANSPARENCY_WEB.png"
 			}
+		</script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SV13B4J42P"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-SV13B4J42P");
+		</script>
+		<!-- Hotjar Tracking Code for https://unixcreativestudio.com/ -->
+		<script>
+			(function (h, o, t, j, a, r) {
+				h.hj =
+					h.hj ||
+					function () {
+						(h.hj.q = h.hj.q || []).push(arguments);
+					};
+				h._hjSettings = { hjid: 5312086, hjsv: 6 };
+				a = o.getElementsByTagName("head")[0];
+				r = o.createElement("script");
+				r.async = 1;
+				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
 		</script>
 	</body>
 </html>
