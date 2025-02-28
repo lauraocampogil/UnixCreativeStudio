@@ -1,3 +1,16 @@
+import { initFaqs } from "./modules/faqs.js";
+import { initAnimations } from "./modules/animations.js";
+import { initMobileMenu } from "./modules/mobile-menu.js";
+import { initTranslations } from "./modules/translations.js";
+
+// Initialize only what's needed
+document.addEventListener("DOMContentLoaded", () => {
+	initFaqs();
+	initAnimations();
+	initMobileMenu();
+	initTranslations();
+});
+
 // faq
 const faqs = document.querySelectorAll(".faq");
 faqs.forEach((faq) => {
@@ -187,15 +200,26 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // For lord-icon scripts
 document.addEventListener("DOMContentLoaded", function () {
-	const observer = new IntersectionObserver((entries) => {
-		entries.forEach((entry) => {
-			if (entry.isIntersecting) {
-				const script = document.createElement("script");
-				script.src = "https://cdn.lordicon.com/lordicon.js";
-				document.body.appendChild(script);
-				observer.disconnect();
-			}
-		});
-	});
-	observer.observe(document.querySelector(".features"));
+	// Create IntersectionObserver
+	const featureSection = document.querySelector(".features");
+	if (!featureSection) return;
+
+	const observer = new IntersectionObserver(
+		(entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					// Load the script only when features section is visible
+					const script = document.createElement("script");
+					script.src = "https://cdn.lordicon.com/lordicon.js";
+					script.async = true;
+					document.body.appendChild(script);
+					// Stop observing once loaded
+					observer.disconnect();
+				}
+			});
+		},
+		{ rootMargin: "100px" }
+	);
+
+	observer.observe(featureSection);
 });
