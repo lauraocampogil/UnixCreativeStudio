@@ -1247,6 +1247,9 @@ svg {
 	.steps {
 		gap: 1.5rem;
 	}
+	.step {
+		width: 350px;
+	}
 	.service-content {
 		padding: 0 15px;
 	}
