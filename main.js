@@ -185,3 +185,17 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	});
 });
+// For lord-icon scripts
+document.addEventListener("DOMContentLoaded", function () {
+	const observer = new IntersectionObserver((entries) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				const script = document.createElement("script");
+				script.src = "https://cdn.lordicon.com/lordicon.js";
+				document.body.appendChild(script);
+				observer.disconnect();
+			}
+		});
+	});
+	observer.observe(document.querySelector(".features"));
+});

@@ -21,7 +21,7 @@
 		<meta property="og:description" content="Especialistas en diseño web profesional para gimnasios y coaches. Desarrollo web personalizado, asistencia automatica con chatbots, SEO y optimización de Google Maps para impulsar tu presencia online." />
 		<title>Unix Creative Studio</title>
 		<link rel="icon" href="images/Unix_favicon.webp" type="image/x-icon" />
-		<link rel="preload" as="image" href="images/UNIX_TRANSPARENCY_WEB.webp" type="image/webp" />
+		<link rel="preload" href="images/UNIX_TRANSPARENCY_WEB.webp" as="image" type="image/webp" />
 		<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" media="print" onload="this.media='all'" />
 		<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /></noscript>
@@ -31,7 +31,7 @@
 	<body>
 		<nav class="nav-container">
 			<div class="logo">
-				<a href="index.html"><img src="images/UNIX_TRANSPARENCY_WEB.webp" width="60" height="60" alt="Logo de Unix Creative Studio - Página Principal" /></a>
+				<a href="index.html"><img src="images/UNIX_TRANSPARENCY_WEB.webp" width="60" height="60" alt="Logo de Unix Creative Studio - Página Principal" fetchpriority="high" /></a>
 			</div>
 			<div class="hamburger-menu">
 				<div class="bar"></div>
@@ -550,6 +550,13 @@
 				"@type": "Organization",
 				"name": "Unix Creative Studio",
 				"logo": "https://unixcreativestudio.com/images/UNIX_TRANSPARENCY_WEB.png"
+			}
+		</script>
+		<script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("/service-worker.js").then(function () {
+					console.log("Service Worker Registered");
+				});
 			}
 		</script>
 		<!-- Google tag (gtag.js) -->
