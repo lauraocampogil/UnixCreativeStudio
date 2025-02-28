@@ -39,10 +39,10 @@
 			</div>
 
 			<div class="nav-links">
-				<a href="index.html" data-i18n="nav.features">CARACTERISTICAS</a>
-				<a href="index.html" data-i18n="nav.services">SERVICIOS</a>
-				<a href="index.html" data-i18n="nav.works" class="works-link"> PROYECTOS</a>
-				<a href="index.html" data-i18n="nav.faq">FAQ</a>
+				<a href="index.html#features" data-i18n="nav.features">CARACTERISTICAS</a>
+				<a href="index.html#services" data-i18n="nav.services">SERVICIOS</a>
+				<a href="index.htm#works" data-i18n="nav.works" class="works-link"> PROYECTOS</a>
+				<a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
 			</div>
 
 			<div class="nav-right">
@@ -80,10 +80,10 @@
 				<div class="close-menu">✕</div>
 			</div>
 			<div class="mobile-menu-links">
-				<a href="index.html" data-i18n="nav_mobile.features">CARACTERISTICAS</a>
-				<a href="index.html" data-i18n="nav_mobile.services">SERVICIOS</a>
-				<a href="index.html" data-i18n="nav_mobile.works">PROYECTOS</a>
-				<a href="index.html" data-i18n="nav_mobile.faq">FAQ</a>
+				<a href="index.html#features" data-i18n="nav_mobile.features">CARACTERISTICAS</a>
+				<a href="index.html#services" data-i18n="nav_mobile.services">SERVICIOS</a>
+				<a href="index.html#works" data-i18n="nav_mobile.works">PROYECTOS</a>
+				<a href="index.html#faq" data-i18n="nav_mobile.faq">FAQ</a>
 
 				<a href="contact.html" class="mobile-cta" data-i18n="nav_mobile.contact">Contactanos</a>
 				<div class="mobile-language-selector">
@@ -306,6 +306,42 @@
 			<p data-i18n="footer.made_in_belgium">Hecho en Belgica</p>
 		</footer>
 		<script src="main.js" defer></script>
+		<!-- FAQ -->
+		<script>
+			const faqs = document.querySelectorAll(".faq");
+			faqs.forEach((faq) => {
+				faq.addEventListener("click", () => {
+					faq.classList.toggle("active");
+				});
+			});
+		</script>
+		<!-- Hamburgermenu -->
+		<script>
+			const hamburger = document.querySelector(".hamburger-menu");
+			const mobileMenu = document.querySelector(".mobile-menu");
+			const closeMenu = document.querySelector(".close-menu");
+			const mobileLinks = document.querySelectorAll(".mobile-menu-links a");
+
+			hamburger.addEventListener("click", () => {
+				mobileMenu.classList.add("active");
+				document.body.style.overflow = "hidden";
+				document.querySelector(".nav-container").style.display = "none";
+			});
+
+			closeMenu.addEventListener("click", () => {
+				mobileMenu.classList.remove("active");
+				document.body.style.overflow = "auto";
+				document.querySelector(".nav-container").style.display = "flex";
+			});
+
+			mobileLinks.forEach((link) => {
+				link.addEventListener("click", () => {
+					mobileMenu.classList.remove("active");
+					document.body.style.overflow = "auto";
+					document.querySelector(".nav-container").style.display = "flex";
+				});
+			});
+		</script>
 		<!-- schema.org markup for the contact page -->
 		<script type="application/ld+json">
 			{
