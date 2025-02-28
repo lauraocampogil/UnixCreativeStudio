@@ -479,7 +479,7 @@ img {
 	height: 450px;
 	background: rgba(20, 20, 20, 0.9);
 	backdrop-filter: blur(10px);
-	padding: 30px; /* Increase padding */
+	padding: 30px;
 	margin-bottom: 20px;
 	position: relative;
 	margin-left: 10px;
@@ -1247,11 +1247,6 @@ svg {
 	.steps {
 		gap: 1.5rem;
 	}
-
-	.step {
-		width: 350px;
-		height: 550px;
-	}
 	.service-content {
 		padding: 0 15px;
 	}
@@ -1511,7 +1506,6 @@ svg {
 		font-size: 14px;
 	}
 	.step-receive-text {
-		margin-top: 15px;
 		padding: 0 10px;
 	}
 	.step-project-text h3,
