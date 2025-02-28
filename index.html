@@ -551,7 +551,29 @@
 		</footer>
 
 		<script src="main.js" defer type="module"></script>
-		<script src="https://cdn.lordicon.com/lordicon.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const featureSection = document.querySelector(".features");
+				if (!featureSection) return;
+
+				const observer = new IntersectionObserver(
+					(entries) => {
+						entries.forEach((entry) => {
+							if (entry.isIntersecting) {
+								const script = document.createElement("script");
+								script.src = "https://cdn.lordicon.com/lordicon.js";
+								script.async = true;
+								document.body.appendChild(script);
+								observer.disconnect();
+							}
+						});
+					},
+					{ rootMargin: "100px" }
+				);
+
+				observer.observe(featureSection);
+			});
+		</script>
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
