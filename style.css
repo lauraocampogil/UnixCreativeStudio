@@ -401,22 +401,27 @@ img {
 	margin-bottom: 2.5rem;
 }
 .cta-button {
-	margin-top: 5rem;
-	background: white;
-	color: black;
-	text-decoration: none;
-	padding: 1rem 2rem;
-	border-radius: 100px;
-	font-weight: 500;
-	transition: all 0.3s ease;
-	opacity: 0;
-	animation: fadeInUp 1s ease forwards;
-	animation-delay: 1s;
+    margin-top: 2rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
 }
+
 .cta-button:hover {
-	background: rgba(255, 255, 255, 0.9);
-	transform: translateY(30px);
-	transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Animations */
