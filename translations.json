@@ -815,8 +815,8 @@
 		},
 		"services": {
 			"span": {
-				"2_places": "2 spots available",
-				"3_places": "3 spots available"
+				"2_places": "2 plekken beschikbaar",
+				"3_places": "3 plekken beschikbaar"
 			}
 		},
 		"service": {
