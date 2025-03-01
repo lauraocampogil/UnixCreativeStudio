@@ -1304,7 +1304,7 @@ svg {
 }
 @media (max-width: 1024px) {
 	.hero p {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
