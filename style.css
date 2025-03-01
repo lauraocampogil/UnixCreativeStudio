@@ -400,33 +400,24 @@ img {
 	animation-delay: 0.7s;
 	margin-bottom: 2.5rem;
 }
-/* Button styling and animation */
+
 .cta-button {
-	display: inline-block;
-	margin-top: 2rem;
+	margin-top: 5rem;
 	background: white;
 	color: black;
 	text-decoration: none;
 	padding: 1rem 2rem;
 	border-radius: 100px;
 	font-weight: 500;
-	cursor: pointer;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-	/* Animation setup */
+	transition: all 0.3s ease;
 	opacity: 0;
-	transform: translateY(30px);
 	animation: fadeInUp 1s ease forwards;
 	animation-delay: 1s;
-
-	/* Smooth transition for hover effect */
-	transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .cta-button:hover {
 	background: rgba(255, 255, 255, 0.9);
-	transform: translateY(-5px);
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	transform: translateY(30px);
+	transition: all 0.3s ease;
 }
 
 /* Animations */
