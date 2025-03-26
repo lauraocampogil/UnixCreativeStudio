@@ -3,7 +3,6 @@
 		"nav": {
 			"features": "CARACTERÍSTICAS",
 			"services": "SERVICIOS",
-			"works": "PROYECTOS",
 			"faq": "FAQ",
 			"contact": "Contactanos"
 		},
@@ -226,7 +225,6 @@
 		"nav": {
 			"features": "FEATURES",
 			"services": "SERVICES",
-			"works": "WORKS",
 			"faq": "FAQ",
 			"contact": "Contact Us"
 		},
@@ -450,7 +448,6 @@
 		"nav": {
 			"features": "FONCTIONNALITÉS",
 			"services": "SERVICES",
-			"works": "RÉALISATIONS",
 			"faq": "FAQ",
 			"contact": "Contactez-nous"
 		},
@@ -672,7 +669,6 @@
 		"nav": {
 			"features": "FUNCTIES",
 			"services": "DIENSTEN",
-			"works": "PROJECTEN",
 			"faq": "FAQ",
 			"contact": "Contacteer ons"
 		},
